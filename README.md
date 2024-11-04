@@ -8,7 +8,7 @@
 
 *Realized By:  Abdelkebir Bouchti*
 
-
+---
 
  ## Content
 
@@ -46,13 +46,14 @@
 [**Summary**](#summary)
 
 
-
+---
 <br>
 <br>
 
-
-`Exercise 1:`
-
+|--------------|              
+| `Exercise 1:`|
+|--------------|
+***
 In this exercise we want to learn how to handle the exceptions of speed, the purpose here is to made the coding simple,
 
 In order to save time and made an awesome debugging and track during the code.
@@ -61,7 +62,7 @@ In order to save time and made an awesome debugging and track during the code.
 
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.003.png)
 
-Figure 1 – Show the class diagram of the exercise.
+`Figure 1 – Show the class diagram of the exercise.`
 
 
 
@@ -142,7 +143,7 @@ The purpose of this exercise is like the previous one, just this point on the ca
 
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.005.png)
 
-Figure 2: Class diagram of the exercise.
+`Figure 2: Class diagram of the exercise.`
 
 <a name="racinecarreeexception"></a>2.2  RacineCarreeException Class.
 
