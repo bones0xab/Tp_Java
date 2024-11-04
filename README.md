@@ -43,7 +43,7 @@
 [3.4 Results](#results3)
 
 
-[**Summary](#summary)** 
+[**Summary**](#summary)
 
 
 
