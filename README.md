@@ -50,9 +50,9 @@
 <br>
 <br>
 
-|              |
-| `Exercise 1:`|
-|**************|
+
+|`Exercise 1:`|
+|*************|
 ***
 In this exercise we want to learn how to handle the exceptions of speed, the purpose here is to made the coding simple,
 
