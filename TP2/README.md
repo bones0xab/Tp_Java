@@ -82,9 +82,8 @@
 
 [4.5 Class Application](#page29)
 
-[4.6 Results](#page30)
+[4.6 Results and cases](#page30)
 
-[4.7 Cases](#page31)
 
 ***
 
@@ -1308,7 +1307,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 `        `scn.close();     }
 
 }
-6.<a name="page30"></a> Cases
+6. <a name="page30"></a> Results and Cases
 
 Case 1 : Show the list of products.
 
