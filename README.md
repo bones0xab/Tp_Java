@@ -51,7 +51,7 @@
 <br>
 
 
-Exercise 1:
+`Exercise 1:`
 
 In this exercise we want to learn how to handle the exceptions of speed, the purpose here is to made the coding simple,
 
@@ -75,45 +75,45 @@ Figure 1 – Show the class diagram of the exercise.
 
 public class TropViteException extends  Exception{
 
-`    `public TropViteException(int i)
-`    `{
-`        `super("C'est une exception de type TropViteException Vitesse en cause : " + i);
-`    `}
+    public TropViteException(int i)
+    {
+        super("C'est une exception de type TropViteException Vitesse en cause : " + i);
+    }
 
 }
 
 1. <a name="vehicule"></a>Vehicule Class
 
-`     `Tasks:
+ `Tasks:`
 
 - Create the class Vehicule that propose a constructor empty.
 - Create method testVitesse() who take as an input int.
 - Create a main test and handle the exception using the try bloc.
 
 public class Vehicule {
-`    `public Vehicule() {
+    public Vehicule() {
 
-`    `}
+    }
 
-`    `//We made these throws to test exceptions
-`    `public void testVitesse(int i) throws TropViteException {
-`        `if (i > 90) {
-`            `throw new TropViteException(i);
-`        `}
+    //We made these throws to test exceptions
+    public void testVitesse(int i) throws TropViteException {
+        if (i > 90) {
+            `throw new TropViteException(i);
+        }
 
-`    `}
+    }
 
-`    `public static void main(String[] args) {
-`        `Vehicule v = new Vehicule();
+    public static void main(String[] args) {
+        Vehicule v = new Vehicule();
 
-`        `try {
-`            `v.testVitesse(80);  // Should not throw an exception
-`            `v.testVitesse(100); // This will throw TropViteException
-`        `} catch (TropViteException e) {
-`            `// Handle the exception
-`           `e.printStackTrace();
-`        `}
-`    `}
+        try {
+            v.testVitesse(80);  // Should not throw an exception
+            v.testVitesse(100); // This will throw TropViteException
+        } catch (TropViteException e) {
+            // Handle the exception
+           e.printStackTrace();
+        }
+    }
 }
 
 
@@ -134,7 +134,7 @@ public class Vehicule {
 
 
 
-Exercise 2: 
+`Exercise 2:` 
 
 The purpose of this exercise is like the previous one, just this point on the case of exceptions and how to handle it, in here we want to test the case of square negative.
 
@@ -146,46 +146,46 @@ Figure 2: Class diagram of the exercise.
 
 <a name="racinecarreeexception"></a>2.2  RacineCarreeException Class.
 
-Tasks : 
+`Tasks:` 
 
 - Create and inheritance from the class Exception.
 - Create a constructor who doesn’t have return and give him an int as an input.
 - Handle the case of exception.
 
 public class RacineCarreeException extends Exception{
-`    `public RacineCarreeException(int i)
-`    `{
-`        `super("C'est une exception de type RacineCarreeException Nombre négatif : " + i);
-`    `}
+    public RacineCarreeException(int i)
+    {
+        super("C'est une exception de type RacineCarreeException Nombre négatif : " + i);
+    }
 }
 
 <a name="calculateur"></a>2.3 Calculateur Class.
 
-Tasks : 
+`Tasks:` 
 
 - Create a class calculateur without attribute.
 - Create a constructor who can take an int as input.
 - Create a main method with tests.
 
 public class Calculateur {
-`    `public void testRacineCarree(int i) throws RacineCarreeException
-`    `{
-`        `if (i < 0)
-`        `{
-`            `throw new RacineCarreeException(i);
-`        `}
-`    `}
+    public void testRacineCarree(int i) throws RacineCarreeException
+    {
+        if (i < 0)
+        {
+            throw new RacineCarreeException(i);
+        }
+    }
 
-`    `public static void main(String[] args) {
-`                `Calculateur c = new Calculateur();
-`                `try{
-`                    `c.testRacineCarree(-5);
-`                    `c.testRacineCarree(25);
-`                `}catch (RacineCarreeException e)
-`                `{
-`                    `e.printStackTrace();
-`                `}
-`    `}
+    public static void main(String[] args) {
+                Calculateur c = new Calculateur();
+                try{
+                    c.testRacineCarree(-5);
+                    c.testRacineCarree(25);
+                }catch (RacineCarreeException e)
+                {
+                    e.printStackTrace();
+                }
+    }
 }
 
 <a name="result2"></a>2.4 Results.
@@ -193,7 +193,7 @@ public class Calculateur {
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.006.png)
 
 
-Exercise 03: 
+`Exercise 03:` 
 
 The purpose of this exercise is the same as the previous exercises, just they differentiate in the purpose , like this one , the purpose here is to  validate the note between 0 and 20, using the same method and way in the previous exercises.
 
@@ -201,11 +201,11 @@ The purpose of this exercise is the same as the previous exercises, just they di
 
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.007.png)
 
-Figure 3 : Diagram of class .
+`Figure 3 : Diagram of class .`
 
 3\.2 <a name="noteinvalideexception"></a>NoteInvalideException Class.
 
-Tasks : 
+`Tasks:` 
 
 \- Create a class NoteincalideException and inheritance the Exception class.
 
@@ -214,15 +214,15 @@ Tasks :
 \- Give the String and the int to the super class Exception.
 
 public class NoteInvalideException extends Exception{
-`    `public NoteInvalideException(int i)
-`    `{
-`        `super("Exception de type NoteInvalideException invalide : " + i);
-`    `}
+    public NoteInvalideException(int i)
+    {
+        super("Exception de type NoteInvalideException invalide : " + i);
+    }
 }
 
 3\.3 <a name="evaluateur"></a>Evaluateur Class.
 
-Tasks : 
+`Tasks:` 
 
 - Create the class Evaluateur without attributes.
 - Create an empty constructor.
@@ -230,26 +230,26 @@ Tasks :
 - Create Main method to test .
 
 public class Evaluateur {
-`    `public Evaluateur(){}
+    public Evaluateur(){}
 
-`    `public void verifierNote(int i) throws NoteInvalideException
-`    `{
-`        `if (i < 0 || i > 20)
-`            `throw new NoteInvalideException(i);
+    public void verifierNote(int i) throws NoteInvalideException
+    {
+        if (i < 0 || i > 20)
+            throw new NoteInvalideException(i);
 
-`    `}
+    }
 
-`    `public static void main(String[] args) {
-`        `Evaluateur eval = new Evaluateur();
+    public static void main(String[] args) {
+        Evaluateur eval = new Evaluateur();
 
-`        `try{
-`            `eval.verifierNote(15);
-`            `eval.verifierNote(25);
-`        `}catch (NoteInvalideException e)
-`        `{
-`            `e.printStackTrace();
-`        `}
-`    `}
+        try{
+            eval.verifierNote(15);
+            eval.verifierNote(25);
+        }catch (NoteInvalideException e)
+        {
+            e.printStackTrace();
+        }
+    }
 }
 
 3\.4 Resu<a name="results3"></a>lts.
