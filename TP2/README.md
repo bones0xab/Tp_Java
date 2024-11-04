@@ -404,7 +404,7 @@ The application can manage the articles and the categories also the commands.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.019.jpeg)
 
-Figure 3 : Diagram of class 
+`Figure 3 : Diagram of class` 
 
 1.<a name="page15"></a> Ordinateur Class. Tasks : 
 - Create class ordinateur with attributes, nom , marque, prix , description , stock.
@@ -485,7 +485,8 @@ Figure 3 : Diagram of class
 
   }
 
-2.<a name="page16"></a> Category Class. Tasks : 
+2.<a name="page16"></a> Category Class. 
+`Tasks :` 
 - Create a category class with these attributes, nom, description, list laptop.
 - Create method ajouterOrdinateur() for adding the new laptops.
 - Create method supprimerOrdinateur() for removing the laptops and also rechercherParPrix() for searching the price.
@@ -581,7 +582,8 @@ public class Categorie {
 
 }
 
-3. <a name="page17"></a>Commande Class. Tasks : 
+3. <a name="page17"></a>Commande Class.
+`Tasks :` 
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
 
@@ -599,7 +601,7 @@ public class Commande {
 
 `        `this.client = c;
 
-`        `this.date = date\_commande;         this.etat\_command = etat;     }![ref2]
+`        `this.date = date\_commande;         this.etat\_command = etat;     }
 
 `    `public String getRef()
 
