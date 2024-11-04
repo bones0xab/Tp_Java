@@ -73,7 +73,7 @@ Figure 1 – Show the class diagram of the exercise.
 - Add constructor to initialize different attributes.
 - Made a method afficher() for returning the information’s about attributes.
 
-public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004.png)
+public class Personne {
 
 `    `private String nom, prenom, email;
 
@@ -115,7 +115,7 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 - Create Attribute numAdherent
 - Create the method afficher() for showing the informations. 
 
-  public class Adherent extends Personne{![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.005.png)
+  public class Adherent extends Personne{
 
   `    `public int numAdherent ;![ref1]
 
@@ -146,7 +146,25 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 - Create a numAuteur attribute.
 - Create a Constructor for inserting the inputs to the superclass.
 - Create a method for showing the information about the author.
-  
+
+  public class Auteur extends Personne{
+
+    public int numAuteur ;
+
+    public Auteur(String nom,String prenom,String email,long age, String tel,int numAuteur)
+    {
+        super(nom,prenom,email,age,tel);
+        this.numAuteur = numAuteur;
+    }
+
+    public void afficher()
+    {
+        super.afficher();
+        System.out.println("This is number of Autor : " + numAuteur);
+    }
+
+}
+
 
 
 6. <a name="page7"></a>Livre Class
@@ -156,7 +174,7 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 - Create Livre class with attributes ISBN and auteur.
 - Create the method show for showing the information’s about the attributes.
 
-public class Livre {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.007.png)
+public class Livre {
 
 `    `private long ISBN;
 
@@ -186,9 +204,9 @@ public class Livre {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.007.pn
 
 7. <a name="page8"></a>Application
 
-public class Main {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png)
+public class Main {
 
-`    `public static void main(String[] args) {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.009.png)
+`    `public static void main(String[] args) {
 
 `        `// Create an instance of Adherent
 
