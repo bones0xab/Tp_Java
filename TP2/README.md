@@ -4,9 +4,9 @@
 
 <p align="center">
 # Practical Activity 2:
-
-*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
 </p>
+*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
+
 
 <p align="center">
 <img src="assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.002.jpeg" alt="This is ENSET" width="300"/>
