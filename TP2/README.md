@@ -15,41 +15,65 @@
 [1.1 Class diagram](#page3)
 
 [1.2 Class Person](#page4)
+
 [1.3 Class Adherent](#page5)
+
 [1.4 Class Auteur](#page6)
+
 [1.5 Class Livre](#page7)
+
 [1.6 Application](#page8)
+
 [1.7 Results](#page9)
 
 `Exercise 02`
 
 [2.1 Class diagram](#page10)
+
 [2.2 Class Employe](#page11) 
+
 [2.3 Class Ingenieur](#page12) 
+
 [2.4 Class Manager](#page13)
+
 [2.5 Application](#page14)
+
 [2.6 Main](#page15)
+
 [2.7 Results](#page16)
 
 `Exercise 03`
 
 [3.1 Class diagram](#page17)
+
 [3.2 Class Ordinateur](#page18)
+
 [3.3 Class Categorie](#page19)
+
 [3.4 Class Commande](#page20)
+
 [3.5 Class LigneCommande](#page21)
+
 [3.6 Client](#page22)
+
 [3.7 Main](#page23)
+
 [3.8 Results](#page24)
 
 `Exercise  04`
 
 [4.1 Class diagram](#page25)
+
 [4.2 Class Produit](#page26)
+
 [4.3 Class IMetierProduit](#page27)
+
 [4.4 Class MetierProduitImpl](#page28)
+
 [4.5 Class Application](#page29)
+
 [4.6 Results](#page30)
+
 [4.7 Cases](#page31)
 
 **Summary** 
