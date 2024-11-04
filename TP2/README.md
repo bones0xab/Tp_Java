@@ -248,9 +248,9 @@ Tasks :
 - Add constructor for initialize the attributes.
 - Add abstract method for returning the salary , this method is implemented by the other class.
 
-public abstract class Employe {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.012.png)
+public abstract class Employe {
 
-`    `private String nom , prenom , email ;     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.013.png)private double salaire;
+`    `private String nom , prenom , email ; private double salaire;
 
 `    `private String tel;
 
@@ -296,7 +296,7 @@ public abstract class Employe {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-d
 
 \-
 
-public class Ingenieur extends Employe {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.014.png)
+public class Ingenieur extends Employe {
 
 `    `private String specialite;
 
@@ -314,7 +314,7 @@ public class Ingenieur extends Employe {![](assets/Aspose.Words.3d128987-4b67-4c
 
 `    `{
 
-`        `return getSalaire()\*0.15;     }![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.015.png)
+`        `return getSalaire()\*0.15;     }
 
 `    `@Override
 
@@ -328,11 +328,12 @@ public class Ingenieur extends Employe {![](assets/Aspose.Words.3d128987-4b67-4c
 
 }
 
-4.<a name="page12"></a> Manager Class. Tasks :
+4.<a name="page12"></a> Manager Class. 
+`Tasks :`
 - Create a class manager with service attribute.
 - Redefine the method calculerSalaire().
 
-public class Manager extends Employe {     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.016.png)private String service;
+public class Manager extends Employe { private String service;
 
 `    `public Manager(String name,String prenom , String email,double salaire , String tel,String Service)
 
