@@ -25,10 +25,10 @@
 
 [1.1 Class diagram](#page3)
 
-[1.2 Class Person](#page4)
-
+[1.2 Class Person](#page4)  
+                               
 [1.3 Class Adherent](#page5)
-
+                              
 [1.4 Class Auteur](#page6)
 
 [1.5 Class Livre](#page7)
