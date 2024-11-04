@@ -1165,7 +1165,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
   `                    `System.*out*.println("\n\n");                     break;
 
-`                `case 2:![ref3]
+`                `case 2:
 
 `                    `System.*out*.print("Enter a Name : ");                     String searched\_str = scn.nextLine();                     System.*out*.println("The Products searched: \n");
 
@@ -1219,7 +1219,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 `                `case 4:
 
-`                    `System.*out*.print("Enter Id: ");                     ![ref2]long i = scn.nextLong();
+`                    `System.*out*.print("Enter Id: ");                    long i = scn.nextLong();
 
 `                    `if (interf.findById(i) == null)                     {
 
