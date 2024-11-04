@@ -1,10 +1,10 @@
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
 
 <a name="_top"></a>`Practical Activity 3:`
 
 # Exception Handling
 
-![The State Of Java Development In 2023](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.002.jpeg)
+![The State Of Java Development In 2023](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.002.jpeg)
 
 *Realized By:  Abdelkebir Bouchti*
 
@@ -61,7 +61,7 @@ In order to save time and made an awesome debugging and track during the code.
 
 1. <a name="page3"></a>Class diagram
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.003.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.003.png)
 
 `Figure 1 – Show the class diagram of the exercise.`
 
@@ -121,7 +121,7 @@ public class Vehicule {
 
 <a name="page5result"></a>1.4 Results:
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.004.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.004.png)
 
 
 
@@ -143,7 +143,7 @@ The purpose of this exercise is like the previous one, just this point on the ca
 
 <a name="diagram2"></a> 2.1 Class Diagram 
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.005.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.005.png)
 
 `Figure 2: Class diagram of the exercise.`
 
@@ -193,7 +193,7 @@ public class Calculateur {
 
 <a name="result2"></a>2.4 Results.
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.006.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.006.png)
 
 
 |`Exercise 03:`|
@@ -203,7 +203,7 @@ The purpose of this exercise is the same as the previous exercises, just they di
 
 <a name="diagram3"></a>3.1 Class diagram
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.007.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.007.png)
 
 `Figure 3 : Diagram of class .`
 
@@ -258,7 +258,7 @@ public class Evaluateur {
 
 3\.4 Resu<a name="results3"></a>lts.
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.008.png)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.008.png)
 
 
 
@@ -267,7 +267,7 @@ public class Evaluateur {
 
 In the end, we can finish with this conclusion, first we saw how to use the exceptions for handling specific cases, and for multiples ways and errors, We work with the class Exception who has the power to show some traces and messages in the output program, it’s very useful when we want to debug a big applications or projects.
 
-![](Hellow/TP3/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.009.jpeg)
+![](TP3/Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.009.jpeg)
 
 
 
