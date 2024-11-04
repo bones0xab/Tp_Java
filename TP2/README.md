@@ -366,7 +366,7 @@ public class Manager extends Employe { private String service;
 5.<a name="page13"></a> Main.
 
 
-public class Main {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png)
+public class Main {
 
 `    `public static void main(String[] args) 
 
@@ -411,7 +411,7 @@ Figure 3 : Diagram of class
 - Each laptop belongs to a category.
 - Create a method for returning the final price of a laptop given.
 
-  public class Ordinateur {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.020.png)
+  public class Ordinateur {
 
   `    `private String nom, marque, description;     private long stock;
 
@@ -490,7 +490,8 @@ Figure 3 : Diagram of class
 - Create method ajouterOrdinateur() for adding the new laptops.
 - Create method supprimerOrdinateur() for removing the laptops and also rechercherParPrix() for searching the price.
 
-import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.021.png)import java.util.List;
+import java.util.ArrayList; 
+import java.util.List;
 
 public class Categorie {
 
@@ -540,7 +541,7 @@ public class Categorie {
 
 `        `List<Ordinateur> ord\_price = new ArrayList<Ordinateur>();
 
-`        `for (Ordinateur o : objects\_ordinateur)![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.022.png)
+`        `for (Ordinateur o : objects\_ordinateur)
 
 `        `{
 
@@ -584,7 +585,7 @@ public class Categorie {
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
 
-import java.util.random.RandomGenerator;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.023.png)
+import java.util.random.RandomGenerator;
 
 public class Commande {
 
@@ -646,16 +647,17 @@ public class Commande {
 
 }
 
-4. <a name="page18"></a>LigneCommand Class. Tasks : 
+4. <a name="page18"></a>LigneCommand Class.
+`Tasks :` 
 - Create a LigneCommande class with these quantite, command, ordinateur.
 - Create methods for getting the infromations about the attributes. 
-- public class Lignecommande {     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.025.png)private long quntite;
+- public class Lignecommande { )private long quntite;
 
   `    `private Commande cmd;
 
   `    `private Ordinateur ord;
 
-`    `public Lignecommande(long q, Commande c , Ordinateur o)![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.026.png)
+`    `public Lignecommande(long q, Commande c , Ordinateur o)
 
 `    `{
 
@@ -701,14 +703,15 @@ public class Commande {
 
 }
 
-5. <a name="page19"></a>Client Class. Tasks : 
+5. <a name="page19"></a>Client Class.
+`Tasks : `
 - Create a Client class with these nom, prenom , address, email , ville , tel , list\_command.
 - Create method ajouter\_command() for adding a commands.
 - Create method supprimer\_list() to remove a command from a list.
 - Create methods for get access to the attributes.
 - toString for showing the informations in the main.
 
-import java.util.ArrayList;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.027.png)
+import java.util.ArrayList;
 
 import java.util.List;![ref3]
 
@@ -812,7 +815,7 @@ public class Client {
 
 6.<a name="page20"></a> Main.
 
-import java.util.List;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.029.png)
+import java.util.List;
 
 public class Main {
 
@@ -845,7 +848,7 @@ public class Main {
 `        `// Searching for a computer by price in the category
 
 
-`        `System.*out*.println("\nSearching for laptops priced at 1800.00:"![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.030.png));
+`        `System.*out*.println("\nSearching for laptops priced at 1800.00:");
 
 `        `List<Ordinateur> foundOrdinateurs = categorie.rchercheParPrix(1800.00);
 
@@ -906,7 +909,7 @@ Figure 4 : Class diagram.
 - Create the methods setId , setName, setMarque , setDescription , setPrice , setStock.
 - Create getId, getName , getMarque, toString.
 
-import java.util.SimpleTimeZone;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.034.png)
+import java.util.SimpleTimeZone;
 
 public class Produit {
 
@@ -988,7 +991,7 @@ public class Produit {
 
 `                `"Description : " + this.Description + "\n" +                 "Price : " + this.prix;
 
-`    `}![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.035.png)
+`    `}
 
 }
 
@@ -997,7 +1000,7 @@ public class Produit {
 - Create an interface for managing the objects of product.
 - Create the methods add , getAll , findByNom , findById , delete .
 
-import java.util.List;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.036.png)
+import java.util.List;
 
 public interface  ImetierProduit {
 
@@ -1015,7 +1018,8 @@ public interface  ImetierProduit {
 ` Tasks :`
 - Create this class for implementing the interface ImetierProduit and add the attribute list products.
 
-import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.037.png)import java.util.List;
+import java.util.ArrayList;
+import java.util.List;
 
 public  class MetierProduiImpl implements ImetierProduit{     List<Produit> produits = new ArrayList<Produit>();
 
@@ -1037,7 +1041,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 `    `{
 
-`        `return produits;     }![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.038.png)
+`        `return produits;     }
 
 `    `public List<Produit> findByNom(String motCle)     {
 
@@ -1104,7 +1108,8 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 
 - Create the application for testing the code .
-- import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.039.png)import java.util.List; import java.util.Scanner;
+- import java.util.ArrayList; 
+- import java.util.List; import java.util.Scanner;
 
   public class Application {
 
