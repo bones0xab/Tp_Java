@@ -12,7 +12,7 @@
 
  ## Content
 
-##**Exercise 01**
+**Exercise 01**
 
 <a name="_1.1_class_diagram:"></a>[1.1 Class diagram](#page3)
 
