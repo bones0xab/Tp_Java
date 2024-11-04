@@ -13,12 +13,12 @@
 `Exercise 01`
 
 [1.1 Class diagram](#page3)
-[2.1 Class Person](#page4)
-[2.2 Class Adherent](#page5)
-[2.3 Class Auteur](#page6)
-[2.4 Class Livre](#page7)
-[2.5 Application](#page8)
-[2.6 Results](#page9)
+[1.2 Class Person](#page4)
+[1.3 Class Adherent](#page5)
+[1.4 Class Auteur](#page6)
+[1.5 Class Livre](#page7)
+[1.6 Application](#page8)
+[1.7 Results](#page9)
 
 `Exercise 02`
 
@@ -67,7 +67,7 @@ Figure 1 – Show the class diagram of the exercise.
 
 2. <a name="page4"></a>Person Class
 
-   Tasks: 
+`Tasks:` 
 
 - Create the class person with private attributes, nom, prenom , email , tel , age .
 - Add constructor to initialize different attributes.
@@ -141,7 +141,15 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 
   }
 
-4. <a name="page6"></a>Livre Class
+4. <a name="page6"></a> Auteur Class
+`Tasks:`
+- Create a numAuteur attribute.
+- Create a Constructor for inserting the inputs to the superclass.
+- Create a method for showing the information about the author.
+  
+
+
+6. <a name="page7"></a>Livre Class
 
    Tasks: 
 
@@ -176,11 +184,11 @@ public class Livre {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.007.pn
 
 }
 
-5. <a name="page7"></a>Main
+7. <a name="page8"></a>Application
 
-public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png)
+public class Main {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png)
 
-`    `public static void main(String[] args) {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.009.png)
+`    `public static void main(String[] args) {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.009.png)
 
 `        `// Create an instance of Adherent
 
@@ -202,9 +210,9 @@ public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png
 
 }
 
-6.<a name="page8"></a> Resultat :
+8.<a name="page9"></a> Resultat :
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.010.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.010.jpeg)
 
 `Exercise 2:` 
 
@@ -212,7 +220,7 @@ The purpose of this exercise is to create an application JAVA for managing the s
 
 1.<a name="page9"></a> Class Diagram 
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.011.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.011.jpeg)
 
 Figure 2: Class diagram of the exercise.
 
@@ -222,9 +230,9 @@ Tasks :
 - Add constructor for initialize the attributes.
 - Add abstract method for returning the salary , this method is implemented by the other class.
 
-public abstract class Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.012.png)
+public abstract class Employe {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.012.png)
 
-`    `private String nom , prenom , email ;     ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.013.png)private double salaire;
+`    `private String nom , prenom , email ;     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.013.png)private double salaire;
 
 `    `private String tel;
 
@@ -270,7 +278,7 @@ public abstract class Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed89
 
 \-
 
-public class Ingenieur extends Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.014.png)
+public class Ingenieur extends Employe {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.014.png)
 
 `    `private String specialite;
 
@@ -288,7 +296,7 @@ public class Ingenieur extends Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc
 
 `    `{
 
-`        `return getSalaire()\*0.15;     }![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.015.png)
+`        `return getSalaire()\*0.15;     }![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.015.png)
 
 `    `@Override
 
@@ -306,7 +314,7 @@ public class Ingenieur extends Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc
 - Create a class manager with service attribute.
 - Redefine the method calculerSalaire().
 
-public class Manager extends Employe {     ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.016.png)private String service;
+public class Manager extends Employe {     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.016.png)private String service;
 
 `    `public Manager(String name,String prenom , String email,double salaire , String tel,String Service)
 
@@ -339,7 +347,7 @@ public class Manager extends Employe {     ![](Aspose.Words.3d128987-4b67-4c59-b
 5.<a name="page13"></a> Main.
 
 
-public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png)
+public class Main {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png)
 
 `    `public static void main(String[] args) 
 
@@ -367,7 +375,7 @@ public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png
 
 6.<a name="page14"></a> Results.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
 
 `Exercise 03: `
 
@@ -375,7 +383,7 @@ The purpose of this exercise is to create an application JAVA for managing the c
 
 The application can manage the articles and the categories also the commands.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.019.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.019.jpeg)
 
 Figure 3 : Diagram of class 
 
@@ -384,7 +392,7 @@ Figure 3 : Diagram of class
 - Each laptop belongs to a category.
 - Create a method for returning the final price of a laptop given.
 
-  public class Ordinateur {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.020.png)
+  public class Ordinateur {![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.020.png)
 
   `    `private String nom, marque, description;     private long stock;
 
@@ -463,7 +471,7 @@ Figure 3 : Diagram of class
 - Create method ajouterOrdinateur() for adding the new laptops.
 - Create method supprimerOrdinateur() for removing the laptops and also rechercherParPrix() for searching the price.
 
-import java.util.ArrayList; ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.021.png)import java.util.List;
+import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.021.png)import java.util.List;
 
 public class Categorie {
 
@@ -513,7 +521,7 @@ public class Categorie {
 
 `        `List<Ordinateur> ord\_price = new ArrayList<Ordinateur>();
 
-`        `for (Ordinateur o : objects\_ordinateur)![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.022.png)
+`        `for (Ordinateur o : objects\_ordinateur)![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.022.png)
 
 `        `{
 
@@ -557,7 +565,7 @@ public class Categorie {
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
 
-import java.util.random.RandomGenerator;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.023.png)
+import java.util.random.RandomGenerator;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.023.png)
 
 public class Commande {
 
@@ -622,13 +630,13 @@ public class Commande {
 4. <a name="page18"></a>LigneCommand Class. Tasks : 
 - Create a LigneCommande class with these quantite, command, ordinateur.
 - Create methods for getting the infromations about the attributes. 
-- public class Lignecommande {     ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.025.png)private long quntite;
+- public class Lignecommande {     ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.025.png)private long quntite;
 
   `    `private Commande cmd;
 
   `    `private Ordinateur ord;
 
-`    `public Lignecommande(long q, Commande c , Ordinateur o)![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.026.png)
+`    `public Lignecommande(long q, Commande c , Ordinateur o)![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.026.png)
 
 `    `{
 
@@ -681,7 +689,7 @@ public class Commande {
 - Create methods for get access to the attributes.
 - toString for showing the informations in the main.
 
-import java.util.ArrayList;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.027.png)
+import java.util.ArrayList;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.027.png)
 
 import java.util.List;![ref3]
 
@@ -785,7 +793,7 @@ public class Client {
 
 6.<a name="page20"></a> Main.
 
-import java.util.List;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.029.png)
+import java.util.List;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.029.png)
 
 public class Main {
 
@@ -818,7 +826,7 @@ public class Main {
 `        `// Searching for a computer by price in the category
 
 
-`        `System.*out*.println("\nSearching for laptops priced at 1800.00:"![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.030.png));
+`        `System.*out*.println("\nSearching for laptops priced at 1800.00:"![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.030.png));
 
 `        `List<Ordinateur> foundOrdinateurs = categorie.rchercheParPrix(1800.00);
 
@@ -862,15 +870,15 @@ public class Main {
 
 7.<a name="page21"></a> Results.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.031.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.031.jpeg)
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.032.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.032.jpeg)
 
 `Exercise 04: `
 
 The purpose of this exercise is to manage a collection of objets of type product using the lists and the interfaces.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.033.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.033.jpeg)
 
 Figure 4 : Class diagram.
 
@@ -879,7 +887,7 @@ Figure 4 : Class diagram.
 - Create the methods setId , setName, setMarque , setDescription , setPrice , setStock.
 - Create getId, getName , getMarque, toString.
 
-import java.util.SimpleTimeZone;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.034.png)
+import java.util.SimpleTimeZone;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.034.png)
 
 public class Produit {
 
@@ -961,7 +969,7 @@ public class Produit {
 
 `                `"Description : " + this.Description + "\n" +                 "Price : " + this.prix;
 
-`    `}![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.035.png)
+`    `}![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.035.png)
 
 }
 
@@ -970,7 +978,7 @@ public class Produit {
 - Create an interface for managing the objects of product.
 - Create the methods add , getAll , findByNom , findById , delete .
 
-import java.util.List;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.036.png)
+import java.util.List;![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.036.png)
 
 public interface  ImetierProduit {
 
@@ -988,7 +996,7 @@ public interface  ImetierProduit {
 ` Tasks :`
 - Create this class for implementing the interface ImetierProduit and add the attribute list products.
 
-import java.util.ArrayList; ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.037.png)import java.util.List;
+import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.037.png)import java.util.List;
 
 public  class MetierProduiImpl implements ImetierProduit{     List<Produit> produits = new ArrayList<Produit>();
 
@@ -1010,7 +1018,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 `    `{
 
-`        `return produits;     }![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.038.png)
+`        `return produits;     }![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.038.png)
 
 `    `public List<Produit> findByNom(String motCle)     {
 
@@ -1077,7 +1085,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 
 - Create the application for testing the code .
-- import java.util.ArrayList; ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.039.png)import java.util.List; import java.util.Scanner;
+- import java.util.ArrayList; ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.039.png)import java.util.List; import java.util.Scanner;
 
   public class Application {
 
@@ -1225,40 +1233,40 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 Case 1 : Show the list of products.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.040.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.040.jpeg)
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.041.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.041.jpeg)
 
 Case 2 : Search a product by name.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.042.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.042.jpeg)
 
 **In the case of there are no products name in the list :** 
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.043.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.043.jpeg)
 
 Case 3: Add new product to the list.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.044.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.044.jpeg)
 
 Case 4 : Get the product by ID.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.045.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.045.jpeg)
 
 Case 5: Delete the product by ID.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.046.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.046.jpeg)
 
 Case 6: Quit Program.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.047.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.047.jpeg)
 
 Summary 
 
 In the end we saw how to use different techniques of managing the objects in JAVA, also we include the class diagrams for showing different situations.  
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.048.png)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.048.png)
 
-[ref1]: Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.006.png
-[ref2]: Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.024.png
-[ref3]: Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.028.png
+[ref1]: assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.006.png
+[ref2]: assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.024.png
+[ref3]: assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.028.png
