@@ -1,59 +1,55 @@
 ﻿![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)
 
-Practical Activity 2:
+# Practical Activity 2:
 
-` `*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
+*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.002.jpeg)
 
-Realized By:  Abdelkebir Bouchti
+`Realized By:  Abdelkebir Bouchti`
 
-Content
+`Content`
 
-Exercise 01
+`Exercise 01`
 
-[1. Class diagram](#page3)
-2.1 Class Person (#page4)
-2.2 Class Adherent (#page5)
-2.3 Class Auteur (#page6)
-2.4 Class Livre (#page7)
-2.5 Application (#page8)
-2.6 Results (#page9)
+[1.1 Class diagram](#page3)
+[2.1 Class Person](#page4)
+[2.2 Class Adherent](#page5)
+[2.3 Class Auteur](#page6)
+[2.4 Class Livre](#page7)
+[2.5 Application](#page8)
+[2.6 Results](#page9)
 
-Exercise 02
+`Exercise 02`
 
-2\.Class diagram : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+[2.1 Class diagram](#page10)
+[2.2 Class Employe](#page11) 
+[2.3 Class Ingenieur](#page12) 
+[2.4 Class Manager](#page13)
+[2.5 Application](#page14)
+[2.6 Main](#page15)
+[2.7 Results](#page16)
 
-2. Class Employe : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-2. Class Ingenieur : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
-2. Class Manager : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 10
-2. Application: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+`Exercise 03`
 
-   6. Main: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
-   6. Results: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 11
+[3.1 Class diagram](#page17)
+[3.2 Class Ordinateur](#page18)
+[3.3 Class Categorie](#page19)
+[3.4 Class Commande](#page20)
+[3.5 Class LigneCommande](#page21)
+[3.6 Client](#page22)
+[3.7 Main](#page23)
+[3.8 Results](#page24)
 
-Exercise 03
+`Exercise  04`
 
-1\.Class diagram : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
-
-2. Class Ordinateur : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 13
-2. Class Categorie : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
-4. Class Commande : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
-4. Class LigneCommande : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
-4. Client : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
-4. Main : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  . . . .  . . . 19
-4. Results : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
-
-Exercise  04
-
-1\.Class diagram : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-
-2. Class Produit : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22
-2. Class IMetierProduit : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23
-2. Class MetierProduitImpl : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-2. Class Application : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 24
-2. Results: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
-2. Cases : . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33
+[4.1 Class diagram](#page25)
+[4.2 Class Produit](#page26)
+[4.3 Class IMetierProduit](#page27)
+[4.4 Class MetierProduitImpl](#page28)
+[4.5 Class Application](#page29)
+[4.6 Results](#page30)
+[4.7 Cases](#page31)
 
 **Summary** 
 
@@ -69,7 +65,7 @@ The purpose here is to practice inheritance!
 
 Figure 1 – Show the class diagram of the exercise.
 
-2. Person Class
+2. <a name="page4"></a>Person Class
 
    Tasks: 
 
@@ -113,7 +109,8 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 
 `    `} }
 
-3. Adherent Class      Tasks:
+3. <a name="page5"></a>Adherent Class
++Tasks:
 - Create the class Adherent who inherent from Person class.
 - Create Attribute numAdherent
 - Create the method afficher() for showing the informations. 
@@ -144,7 +141,7 @@ public class Personne {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.004
 
   }
 
-4. Livre Class
+4. <a name="page6"></a>Livre Class
 
    Tasks: 
 
@@ -179,7 +176,7 @@ public class Livre {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.007.pn
 
 }
 
-5. Main
+5. <a name="page7"></a>Main
 
 public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png)
 
@@ -205,21 +202,22 @@ public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.008.png
 
 }
 
-Resultat :
+6.<a name="page8"></a> Resultat :
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.010.jpeg)
 
-Exercise 2: 
+`Exercise 2:` 
 
 The purpose of this exercise is to create an application JAVA for managing the salary of engineer and managers inside a corporate of web development utilizing the inheritance and abstract classes.
 
-1. Class Diagram 
+1.<a name="page9"></a> Class Diagram 
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.011.jpeg)
 
 Figure 2: Class diagram of the exercise.
 
-2. Employe Class. Tasks : 
+2.<a name="page10"></a> Employe Class.
+Tasks : 
 - Create an abstract class with attributes, nom ,prenom ,email , tel , salaire.
 - Add constructor for initialize the attributes.
 - Add abstract method for returning the salary , this method is implemented by the other class.
@@ -266,7 +264,7 @@ public abstract class Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed89
 
 }
 
-3. Ingénieur Class. Tasks : 
+3.<a name="page11"></a> Ingénieur Class. Tasks : 
 - Create an ingenieur class with the special attribute.
 - Redefine the method calculerSalaire().
 
@@ -304,7 +302,7 @@ public class Ingenieur extends Employe {![](Aspose.Words.3d128987-4b67-4c59-b2dc
 
 }
 
-4. Manager Class. Tasks :
+4.<a name="page12"></a> Manager Class. Tasks :
 - Create a class manager with service attribute.
 - Redefine the method calculerSalaire().
 
@@ -338,7 +336,7 @@ public class Manager extends Employe {     ![](Aspose.Words.3d128987-4b67-4c59-b
 
 }
 
-5. Main.
+5.<a name="page13"></a> Main.
 
 
 public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png)
@@ -367,11 +365,11 @@ public class Main {![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.017.png
 
 }
 
-6. Results.
+6.<a name="page14"></a> Results.
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
 
-Exercise 03: 
+`Exercise 03: `
 
 The purpose of this exercise is to create an application JAVA for managing the commands of clients for a corporate.
 
@@ -381,7 +379,7 @@ The application can manage the articles and the categories also the commands.
 
 Figure 3 : Diagram of class 
 
-1. Ordinateur Class. Tasks : 
+1.<a name="page15"></a> Ordinateur Class. Tasks : 
 - Create class ordinateur with attributes, nom , marque, prix , description , stock.
 - Each laptop belongs to a category.
 - Create a method for returning the final price of a laptop given.
@@ -460,7 +458,7 @@ Figure 3 : Diagram of class
 
   }
 
-2. Category Class. Tasks : 
+2.<a name="page16"></a> Category Class. Tasks : 
 - Create a category class with these attributes, nom, description, list laptop.
 - Create method ajouterOrdinateur() for adding the new laptops.
 - Create method supprimerOrdinateur() for removing the laptops and also rechercherParPrix() for searching the price.
@@ -555,7 +553,7 @@ public class Categorie {
 
 }
 
-3. Commande Class. Tasks : 
+3. <a name="page17"></a>Commande Class. Tasks : 
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
 
@@ -621,7 +619,7 @@ public class Commande {
 
 }
 
-4. LigneCommand Class. Tasks : 
+4. <a name="page18"></a>LigneCommand Class. Tasks : 
 - Create a LigneCommande class with these quantite, command, ordinateur.
 - Create methods for getting the infromations about the attributes. 
 - public class Lignecommande {     ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.025.png)private long quntite;
@@ -676,7 +674,7 @@ public class Commande {
 
 }
 
-5. Client Class. Tasks : 
+5. <a name="page19"></a>Client Class. Tasks : 
 - Create a Client class with these nom, prenom , address, email , ville , tel , list\_command.
 - Create method ajouter\_command() for adding a commands.
 - Create method supprimer\_list() to remove a command from a list.
@@ -785,7 +783,7 @@ public class Client {
 
 }
 
-6. Main.
+6.<a name="page20"></a> Main.
 
 import java.util.List;![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.029.png)
 
@@ -862,13 +860,13 @@ public class Main {
 
 }
 
-7. Results.
+7.<a name="page21"></a> Results.
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.031.jpeg)
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.032.jpeg)
 
-Exercise 04: 
+`Exercise 04: `
 
 The purpose of this exercise is to manage a collection of objets of type product using the lists and the interfaces.
 
@@ -876,7 +874,7 @@ The purpose of this exercise is to manage a collection of objets of type product
 
 Figure 4 : Class diagram.
 
-1. Produit Class. Tasks :
+1.<a name="page22"></a> Produit Class. Tasks :
 - Create the attributes, Id m Nom , Marque , Description , Prox, Stock.
 - Create the methods setId , setName, setMarque , setDescription , setPrice , setStock.
 - Create getId, getName , getMarque, toString.
@@ -967,7 +965,8 @@ public class Produit {
 
 }
 
-2. ImetierProduit Class. Tasks :
+2.<a name="page23"></a> ImetierProduit Class.
+`Tasks :`
 - Create an interface for managing the objects of product.
 - Create the methods add , getAll , findByNom , findById , delete .
 
@@ -985,7 +984,8 @@ public interface  ImetierProduit {
 
 }
 
-3. MetierProduitImpl Class. Tasks :
+3. <a name="page24"></a>MetierProduitImpl Class.
+` Tasks :`
 - Create this class for implementing the interface ImetierProduit and add the attribute list products.
 
 import java.util.ArrayList; ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.037.png)import java.util.List;
@@ -1072,7 +1072,8 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 }
 
-4. Application Class. Tasks :
+4.<a name="page25"></a> Application Class.
+`Tasks :`
 
 
 - Create the application for testing the code .
