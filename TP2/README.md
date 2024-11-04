@@ -31,7 +31,8 @@
 
 ***
 
-`Exercise 02`
+|`Exercise 02`|
+|-------------|
 
 [2.1 Class diagram](#page10)
 
@@ -49,7 +50,8 @@
 
 ***
 
-`Exercise 03`
+|`Exercise 03`|
+|-------------|
 
 [3.1 Class diagram](#page17)
 
@@ -69,7 +71,8 @@
 
 ***
 
-`Exercise  04`
+|`Exercise 04`|
+|-------------|
 
 [4.1 Class diagram](#page25)
 
@@ -87,7 +90,8 @@
 
 ***
 
-**Summary** 
+|**Summary** |
+|-----------|
 
 ---
 
@@ -277,13 +281,13 @@ public class Main {
 
 The purpose of this exercise is to create an application JAVA for managing the salary of engineer and managers inside a corporate of web development utilizing the inheritance and abstract classes.
 
-1.<a name="page9"></a> Class Diagram 
+1.<a name="page10"></a> Class Diagram 
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.011.jpeg)
 
 Figure 2: Class diagram of the exercise.
 
-2.<a name="page10"></a> Employe Class.
+2.<a name="page11"></a> Employe Class.
 `Tasks : `
 - Create an abstract class with attributes, nom ,prenom ,email , tel , salaire.
 - Add constructor for initialize the attributes.
@@ -331,7 +335,7 @@ public abstract class Employe {
 
 }
 
-3.<a name="page11"></a> Ingénieur Class. Tasks : 
+3.<a name="page12"></a> Ingénieur Class. Tasks : 
 - Create an ingenieur class with the special attribute.
 - Redefine the method calculerSalaire().
 
@@ -369,7 +373,7 @@ public class Ingenieur extends Employe {
 
 }
 
-4.<a name="page12"></a> Manager Class. 
+4.<a name="page13"></a> Manager Class. 
 `Tasks :`
 - Create a class manager with service attribute.
 - Redefine the method calculerSalaire().
