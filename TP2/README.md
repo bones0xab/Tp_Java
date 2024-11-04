@@ -1,10 +1,10 @@
-﻿![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)
+﻿![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)
 
 Practical Activity 2:
 
 ` `*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
 
-![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.002.jpeg)
+![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.002.jpeg)
 
 Realized By:  Abdelkebir Bouchti
 
@@ -12,14 +12,13 @@ Content
 
 Exercise 01
 
-1\.Class diagram: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
-
-2. Class Person: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5
-2. Class Adherent: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-2. Class Auteur: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
-2. Class Livre: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-2. Application: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
-2. Results: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+1. Class diagram (#page3)
+2.1 Class Person (#page4)
+2.2 Class Adherent (#page5)
+2.3 Class Auteur (#page6)
+2.4 Class Livre (#page7)
+2.5 Application (#page8)
+2.6 Results (#page9)
 
 Exercise 02
 
@@ -64,7 +63,7 @@ In This exercise we want to build and application JAVA, in order to manage the b
 
 The purpose here is to practice inheritance!
 
-1. Class diagram
+1. <a name="page3"></a>Class diagram
 
 ![](Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.003.jpeg)
 
