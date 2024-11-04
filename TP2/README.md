@@ -12,7 +12,7 @@ Content
 
 Exercise 01
 
-1. Class diagram (#page3)
+[1. Class diagram](#page3)
 2.1 Class Person (#page4)
 2.2 Class Adherent (#page5)
 2.3 Class Auteur (#page6)
