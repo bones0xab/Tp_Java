@@ -50,9 +50,9 @@
 <br>
 <br>
 
-|--------------|              
+              
 | `Exercise 1:`|
-|--------------|
+|**************|
 ***
 In this exercise we want to learn how to handle the exceptions of speed, the purpose here is to made the coding simple,
 
@@ -135,8 +135,9 @@ public class Vehicule {
 
 
 
-`Exercise 2:` 
-
+|`Exercise 2:`| 
+|*************|
+***
 The purpose of this exercise is like the previous one, just this point on the case of exceptions and how to handle it, in here we want to test the case of square negative.
 
 <a name="diagram2"></a> 2.1 Class Diagram 
@@ -194,8 +195,9 @@ public class Calculateur {
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.006.png)
 
 
-`Exercise 03:` 
-
+|`Exercise 03:`|
+|**************|
+***
 The purpose of this exercise is the same as the previous exercises, just they differentiate in the purpose , like this one , the purpose here is to  validate the note between 0 and 20, using the same method and way in the previous exercises.
 
 <a name="diagram3"></a>3.1 Class diagram
