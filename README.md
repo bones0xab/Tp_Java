@@ -1,4 +1,4 @@
-![](Hallow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
+![](Tp_java/Hallow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
 
 <a name="_top"></a>#Practical Activity 3:
 
