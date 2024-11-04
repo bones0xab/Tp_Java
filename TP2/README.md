@@ -408,7 +408,7 @@ public class Manager extends Employe { private String service;
 
 }
 
-5.<a name="page13"></a> Main.
+5.<a name="page14"></a> Main.
 
 
 public class Main {
@@ -437,7 +437,7 @@ public class Main {
 
 }
 
-6.<a name="page14"></a> Results.
+6.<a name="page15"></a> Results.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
 
@@ -453,7 +453,7 @@ The application can manage the articles and the categories also the commands.
 
 `Figure 3 : Diagram of class` 
 
-1.<a name="page15"></a> Ordinateur Class. Tasks : 
+1.<a name="page16"></a> Ordinateur Class. Tasks : 
 - Create class ordinateur with attributes, nom , marque, prix , description , stock.
 - Each laptop belongs to a category.
 - Create a method for returning the final price of a laptop given.
@@ -532,7 +532,7 @@ The application can manage the articles and the categories also the commands.
 
   }
 
-2.<a name="page16"></a> Category Class. 
+2.<a name="page17"></a> Category Class. 
 `Tasks :` 
 - Create a category class with these attributes, nom, description, list laptop.
 - Create method ajouterOrdinateur() for adding the new laptops.
@@ -629,7 +629,7 @@ public class Categorie {
 
 }
 
-3. <a name="page17"></a>Commande Class.
+3. <a name="page18"></a>Commande Class.
 `Tasks :` 
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
@@ -696,7 +696,7 @@ public class Commande {
 
 }
 
-4. <a name="page18"></a>LigneCommand Class.
+4. <a name="page19"></a>LigneCommand Class.
 `Tasks :` 
 - Create a LigneCommande class with these quantite, command, ordinateur.
 - Create methods for getting the infromations about the attributes. 
@@ -752,7 +752,7 @@ public class Commande {
 
 }
 
-5. <a name="page19"></a>Client Class.
+5. <a name="page20"></a>Client Class.
 `Tasks : `
 - Create a Client class with these nom, prenom , address, email , ville , tel , list\_command.
 - Create method ajouter\_command() for adding a commands.
@@ -862,7 +862,7 @@ public class Client {
 
 }
 
-6.<a name="page20"></a> Main.
+6.<a name="page21"></a> Main.
 
 import java.util.List;
 
@@ -939,7 +939,7 @@ public class Main {
 
 }
 
-7.<a name="page21"></a> Results.
+7.<a name="page22"></a> Results.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.031.jpeg)
 
