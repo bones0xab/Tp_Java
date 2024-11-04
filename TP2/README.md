@@ -1,4 +1,6 @@
-<p align="center">﻿![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)</p>
+<p align="center">
+<img src="assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png" alt="This is ENSET" width="300"/>
+</p>
 
 # Practical Activity 2:
 
