@@ -1,4 +1,4 @@
-﻿![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)
+<center>﻿![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png)</center>
 
 # Practical Activity 2:
 
