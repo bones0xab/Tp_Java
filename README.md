@@ -137,7 +137,7 @@ public class Vehicule {
 
 
 |`Exercise 2:`| 
-|*************|
+|-------------|
 ***
 The purpose of this exercise is like the previous one, just this point on the case of exceptions and how to handle it, in here we want to test the case of square negative.
 
@@ -197,7 +197,7 @@ public class Calculateur {
 
 
 |`Exercise 03:`|
-|**************|
+|-------------|
 ***
 The purpose of this exercise is the same as the previous exercises, just they differentiate in the purpose , like this one , the purpose here is to  validate the note between 0 and 20, using the same method and way in the previous exercises.
 
