@@ -10,7 +10,10 @@
 
 `Content`
 
-`Exercise 01`
+***
+
+|`Exercise 01`|
+|-------------|
 
 [1.1 Class diagram](#page3)
 
@@ -25,6 +28,8 @@
 [1.6 Application](#page8)
 
 [1.7 Results](#page9)
+
+***
 
 `Exercise 02`
 
@@ -41,6 +46,8 @@
 [2.6 Main](#page15)
 
 [2.7 Results](#page16)
+
+***
 
 `Exercise 03`
 
@@ -60,6 +67,8 @@
 
 [3.8 Results](#page24)
 
+***
+
 `Exercise  04`
 
 [4.1 Class diagram](#page25)
@@ -76,7 +85,11 @@
 
 [4.7 Cases](#page31)
 
+***
+
 **Summary** 
+
+---
 
 Exercise 1 :
 
@@ -192,7 +205,7 @@ public class Personne {
 
 
 
-6. <a name="page7"></a>Livre Class
+5. <a name="page7"></a>Livre Class
 
    Tasks: 
 
@@ -227,7 +240,7 @@ public class Livre {
 
 }
 
-7. <a name="page8"></a>Application
+6. <a name="page8"></a>Application
 
 public class Main {
 
@@ -253,9 +266,12 @@ public class Main {
 
 }
 
-8.<a name="page9"></a> Resultat :
+7.<a name="page9"></a> Resultat :
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.010.jpeg)
+
+
+---
 
 `Exercise 2:` 
 
@@ -268,7 +284,7 @@ The purpose of this exercise is to create an application JAVA for managing the s
 Figure 2: Class diagram of the exercise.
 
 2.<a name="page10"></a> Employe Class.
-Tasks : 
+`Tasks : `
 - Create an abstract class with attributes, nom ,prenom ,email , tel , salaire.
 - Add constructor for initialize the attributes.
 - Add abstract method for returning the salary , this method is implemented by the other class.
@@ -420,6 +436,8 @@ public class Main {
 6.<a name="page14"></a> Results.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
+
+---
 
 `Exercise 03: `
 
@@ -923,6 +941,8 @@ public class Main {
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.032.jpeg)
 
+---
+
 `Exercise 04: `
 
 The purpose of this exercise is to manage a collection of objets of type product using the lists and the interfaces.
@@ -931,7 +951,8 @@ The purpose of this exercise is to manage a collection of objets of type product
 
 Figure 4 : Class diagram.
 
-1.<a name="page22"></a> Produit Class. Tasks :
+1.<a name="page22"></a> Produit Class. 
+`Tasks :`
 - Create the attributes, Id m Nom , Marque , Description , Prox, Stock.
 - Create the methods setId , setName, setMarque , setDescription , setPrice , setStock.
 - Create getId, getName , getMarque, toString.
@@ -1311,6 +1332,9 @@ Case 5: Delete the product by ID.
 Case 6: Quit Program.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.047.jpeg)
+
+
+---
 
 Summary 
 
