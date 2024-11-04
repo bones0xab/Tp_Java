@@ -42,11 +42,9 @@
 
 [2.4 Class Manager](#page13)
 
-[2.5 Application](#page14)
+[2.5 Main](#page15)
 
-[2.6 Main](#page15)
-
-[2.7 Results](#page16)
+[2.6 Results](#page16)
 
 ***
 
@@ -335,7 +333,8 @@ public abstract class Employe {
 
 }
 
-3.<a name="page12"></a> Ingénieur Class. Tasks : 
+3.<a name="page12"></a> Ingénieur Class. 
+`Tasks :` 
 - Create an ingenieur class with the special attribute.
 - Redefine the method calculerSalaire().
 
@@ -408,7 +407,7 @@ public class Manager extends Employe { private String service;
 
 }
 
-5.<a name="page14"></a> Main.
+5.<a name="page15"></a> Main.
 
 
 public class Main {
@@ -437,7 +436,7 @@ public class Main {
 
 }
 
-6.<a name="page15"></a> Results.
+6.<a name="page16"></a> Results.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.018.jpeg)
 
@@ -449,11 +448,14 @@ The purpose of this exercise is to create an application JAVA for managing the c
 
 The application can manage the articles and the categories also the commands.
 
+1. <a name="page17"></a> Diagram Class
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.019.jpeg)
 
 `Figure 3 : Diagram of class` 
 
-1.<a name="page16"></a> Ordinateur Class. Tasks : 
+
+2.<a name="page18"></a> Ordinateur Class. 
+`Tasks :` 
 - Create class ordinateur with attributes, nom , marque, prix , description , stock.
 - Each laptop belongs to a category.
 - Create a method for returning the final price of a laptop given.
@@ -532,7 +534,7 @@ The application can manage the articles and the categories also the commands.
 
   }
 
-2.<a name="page17"></a> Category Class. 
+3.<a name="page19"></a> Category Class. 
 `Tasks :` 
 - Create a category class with these attributes, nom, description, list laptop.
 - Create method ajouterOrdinateur() for adding the new laptops.
@@ -629,7 +631,7 @@ public class Categorie {
 
 }
 
-3. <a name="page18"></a>Commande Class.
+4. <a name="page20"></a>Commande Class.
 `Tasks :` 
 - Create a Commande class with these attributes, reference, date , etat\_command, client.
 - Create methods for getting the infromations about the attributes. 
@@ -696,7 +698,7 @@ public class Commande {
 
 }
 
-4. <a name="page19"></a>LigneCommand Class.
+5. <a name="page21"></a>LigneCommand Class.
 `Tasks :` 
 - Create a LigneCommande class with these quantite, command, ordinateur.
 - Create methods for getting the infromations about the attributes. 
@@ -752,7 +754,7 @@ public class Commande {
 
 }
 
-5. <a name="page20"></a>Client Class.
+6. <a name="page22"></a>Client Class.
 `Tasks : `
 - Create a Client class with these nom, prenom , address, email , ville , tel , list\_command.
 - Create method ajouter\_command() for adding a commands.
@@ -862,7 +864,7 @@ public class Client {
 
 }
 
-6.<a name="page21"></a> Main.
+7.<a name="page23"></a> Main.
 
 import java.util.List;
 
@@ -939,7 +941,7 @@ public class Main {
 
 }
 
-7.<a name="page22"></a> Results.
+8.<a name="page24"></a> Results.
 
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.031.jpeg)
 
@@ -951,11 +953,12 @@ public class Main {
 
 The purpose of this exercise is to manage a collection of objets of type product using the lists and the interfaces.
 
+1.<a name="page25"></a>
 ![](assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.033.jpeg)
 
 Figure 4 : Class diagram.
 
-1.<a name="page22"></a> Produit Class. 
+2.<a name="page26"></a> Produit Class. 
 `Tasks :`
 - Create the attributes, Id m Nom , Marque , Description , Prox, Stock.
 - Create the methods setId , setName, setMarque , setDescription , setPrice , setStock.
@@ -1047,7 +1050,7 @@ public class Produit {
 
 }
 
-2.<a name="page23"></a> ImetierProduit Class.
+3.<a name="page27"></a> ImetierProduit Class.
 `Tasks :`
 - Create an interface for managing the objects of product.
 - Create the methods add , getAll , findByNom , findById , delete .
@@ -1066,7 +1069,7 @@ public interface  ImetierProduit {
 
 }
 
-3. <a name="page24"></a>MetierProduitImpl Class.
+4. <a name="page28"></a>MetierProduitImpl Class.
 ` Tasks :`
 - Create this class for implementing the interface ImetierProduit and add the attribute list products.
 
@@ -1155,9 +1158,8 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 
 }
 
-4.<a name="page25"></a> Application Class.
+5.<a name="page29"></a> Application Class.
 `Tasks :`
-
 
 - Create the application for testing the code .
 - import java.util.ArrayList; 
@@ -1306,6 +1308,7 @@ public  class MetierProduiImpl implements ImetierProduit{     List<Produit> prod
 `        `scn.close();     }
 
 }
+6.<a name="page30"></a> Cases
 
 Case 1 : Show the list of products.
 
