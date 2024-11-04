@@ -2,10 +2,10 @@
 <img src="assets/Aspose.Words.3d128987-4b67-4c59-b2dc-da37ed8927d9.001.png" alt="This is ENSET" width="300"/>
 </p>
 
-<p align="center">
-# Practical Activity 2:
-</p>
-*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*.
+<h1 align="center">
+ Practical Activity 2:
+</h1>
+<p align="center">*Inheritance, Overriding, Polymorphism, Abstract classes and interfaces*</p>
 
 
 <p align="center">
