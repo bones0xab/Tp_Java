@@ -1,8 +1,8 @@
 ![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
 
-<a name="_top"></a>#Practical Activity 3:
+<a name="_top"></a>`Practical Activity 3:`
 
-[##Exception Handling]
+# Exception Handling
 
 ![The State Of Java Development In 2023](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.002.jpeg)
 
@@ -10,7 +10,7 @@
 
 
 
-Content
+ ## Content
 
 ##**Exercise 01**
 
