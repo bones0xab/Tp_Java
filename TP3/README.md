@@ -4,11 +4,11 @@
 
 
 <p align="center">
- <h1><a name="_top"></a>Practical Activity 3:</h1>
+ <h1 align="center"><a name="_top"></a>Practical Activity 3:</h1>
 </p>
 
 <p align="center">
-  <h2>Exception Handling</h2>
+  <h2 align="center">Exception Handling</h2>
 </p>
 
 <p align="center">
