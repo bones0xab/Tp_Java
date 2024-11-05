@@ -1,13 +1,23 @@
-![](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png)
+<p align="center">
+<img src="Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.001.png" alt="enset" />
+</p>
 
-<a name="_top"></a>`Practical Activity 3:`
 
+<p align="center">
+ <a name="_top"></a>`Practical Activity 3:`
+</p>
+
+<p align="center">
 # Exception Handling
+</p>
 
-![The State Of Java Development In 2023](Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.002.jpeg)
+<p align="center">
+ <img src="Hellow/Aspose.Words.8dace732-7011-4d5d-8d52-6e92a187a4e2.002.jpeg" alt="this is java" />
+</p>
 
+<p align="center">
 *Realized By:  Abdelkebir Bouchti*
-
+</p>
 ---
 
  ## Content
