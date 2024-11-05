@@ -4,11 +4,11 @@
 
 
 <p align="center">
- <a name="_top"></a>`Practical Activity 3:`
+ <h1><a name="_top"></a>Practical Activity 3:</h1>
 </p>
 
 <p align="center">
-# Exception Handling
+  <h2>Exception Handling</h2>
 </p>
 
 <p align="center">
@@ -16,8 +16,10 @@
 </p>
 
 <p align="center">
-*Realized By:  Abdelkebir Bouchti*
+  Realized By:  Abdelkebir Bouchti
 </p>
+
+
 ---
 
  ## Content
