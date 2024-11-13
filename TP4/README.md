@@ -1,12 +1,12 @@
 <p align="center">
- <img src="assets4/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png" alt="Enset" />
+ <img src="assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.001.png" alt="Enset" />
 </p>
-<h1 align="center">Practical Activity 5:</h1>
+<h1 align="center">Practical Activity 4:</h1>
 
-<h3 align="center">*Streams*</h3>
+<h3 align="center">*Collections*</h3>
 
 <p align="center">
- <img src="assets4/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg" alt="Enset" />
+ <img src="assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.002.jpeg" alt="Enset" />
 </p>
 
 
