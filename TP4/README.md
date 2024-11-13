@@ -1,14 +1,16 @@
-﻿
+<p align="center">
+ <img src="assets4/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png" alt="Enset" />
+</p>
+<h1 align="center">Practical Activity 5:</h1>
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.001.png)
+<h3 align="center">*Streams*</h3>
 
-<a name="_top"></a>Practical Activity 4:
+<p align="center">
+ <img src="assets4/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg" alt="Enset" />
+</p>
 
-*Collections*
 
-![The State Of Java Development In 2023](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.002.jpeg)
-
-*Realized By:  Abdelkebir Bouchti*
+<p align="center">*Realized By:  Abdelkebir Bouchti* </p>
 
 
 
@@ -62,7 +64,7 @@ Instructions:
 
 1. <a name="classdiagram1"></a>Class diagram
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.003.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.003.png)
 
 Figure 1 – Show the class diagram of the exercise.
 
@@ -241,11 +243,11 @@ public class GestionProduit {
 
 1. <a name="results1"></a>Results:
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.004.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.004.png)
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.005.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.005.png)
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.006.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.006.png)
 
 1. <a name="methods1"></a>Methods Implementation
 
@@ -390,9 +392,9 @@ Tasks :
 
 <a name="results2"></a>2.2  Results
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.007.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.007.png)
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.008.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.008.png)
 
 3. <a name="methods2"></a>Methods Implementation
 
@@ -550,7 +552,7 @@ In the middle of the code where I want to test the intersection of the groups, I
 
 And the object address are different.
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.009.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.009.png)
 
 In the image above of the executed code without solution look at the intersaction, even if we made the retailAll(), nothing appear. 
 
@@ -574,7 +576,7 @@ public int hashCode() {
 
 <a name="results3"></a>3.4 Results.
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.010.png)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.010.png)
 
 <a name="methods3"></a>3.5 Methods Implementation.
 
@@ -598,5 +600,5 @@ Methods :
 
 *All of these implementations in order to get the knowledge of how to use collections in JAVA.*
 
-![](Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.011.jpeg)
+![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.011.jpeg)
 
