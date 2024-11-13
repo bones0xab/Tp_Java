@@ -1,13 +1,16 @@
 <p align="center">
- <img src=a"sssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png" alt="Enset" />
+ <img src="asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png" alt="Enset" />
 </p>
-<a name="_top"></a>Practical Activity 5:
+<h1 align="center">Practical Activity 5:</h1>
 
-*Streams*
+<h3 align="center">*Streams*</h3>
 
-![The State Of Java Development In 2023](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg)
+<p align="center">
+ <img src="asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg" alt="Enset" />
+</p>
 
-*Realized By:  Abdelkebir Bouchti*
+
+<p align="center" color="red">*Realized By:  Abdelkebir Bouchti* </p>
 
 
 
