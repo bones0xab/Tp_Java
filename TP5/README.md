@@ -10,7 +10,7 @@
 </p>
 
 
-<p align="center" color="red">*Realized By:  Abdelkebir Bouchti* </p>
+<p align="center">*Realized By:  Abdelkebir Bouchti* </p>
 
 
 
