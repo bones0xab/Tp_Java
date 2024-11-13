@@ -1,5 +1,6 @@
-﻿![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png)
-
+<p align="center">
+ <img src=a"sssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png" alt="Enset" />
+</p>
 <a name="_top"></a>Practical Activity 5:
 
 *Streams*
