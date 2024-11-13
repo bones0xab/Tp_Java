@@ -1,10 +1,10 @@
-﻿![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png)
+﻿![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.001.png)
 
 <a name="_top"></a>Practical Activity 5:
 
 *Streams*
 
-![The State Of Java Development In 2023](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg)
+![The State Of Java Development In 2023](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.002.jpeg)
 
 *Realized By:  Abdelkebir Bouchti*
 
@@ -117,11 +117,11 @@ Tasks
 
 1. <a name="result1"></a>Results.
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.003.png)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.003.png)
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.004.png)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.004.png)
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.005.png)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.005.png)
 
 
 
@@ -308,9 +308,9 @@ public class Main {
 
 1. <a name="results2"></a>Results.
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.006.png)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.006.png)
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.007.png)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.007.png)
 
 
 
@@ -345,4 +345,4 @@ The same methods and libraries of the first exercises I get to mention the new m
 
 *In the end we can say the streams are an amazing way to process collections and take control over them in easy way, streams allow developers to perform complex data manipulations in smart manner.*
 
-![](Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.008.jpeg)
+![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.008.jpeg)
