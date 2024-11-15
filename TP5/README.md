@@ -44,7 +44,7 @@
                         
 This exercise focuses on implementing some operations to a list of words using the methods inside the stream library :Filter , Transform , Convert.
 
-1.1 <a name="classdiagram1"></a><a name="main1"></a>**Main Class 🔥:**.
+`**1.1 <a name="classdiagram1"></a><a name="main1"></a>Main Class 🔥:**`
 
 `Tasks`
 
