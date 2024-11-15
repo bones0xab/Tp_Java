@@ -171,6 +171,8 @@ We saw in these exercises how to manage employees and made some operations, the 
 - Create a constructor to store the values of employe
 - Create Attributes of employe
 - Create getters of attributes
+
+  ```java
 - public class Employe {
 
   `    `private String Nom,Departement;
@@ -196,6 +198,7 @@ We saw in these exercises how to manage employees and made some operations, the 
   `        `return Departement;
   `    `}
   }
+  ```
 
 ---
 
@@ -211,6 +214,7 @@ We saw in these exercises how to manage employees and made some operations, the 
 - Use reduce for find the employees who has the max salary
 - Finally use reduce for concatenate all names in ArrayList
 
+```java
 import java.io.LineNumberInputStream;
 import java.time.temporal.Temporal;
 import java.util.\*;
@@ -308,7 +312,7 @@ public class Main {
 
 `        `}
 }
-
+```
 ---
 
 2.3 <a name="results2"></a>Results.
