@@ -47,7 +47,7 @@
 ***
 
 
-# <a name="exercice1"></a> Exercise 1:
+# <a name="exercice1"></a> |Exercise 1:|
 
 This exercise focuses on building an application JAVA for managing list of products. The goal is to implement a set of operations.
 
