@@ -118,7 +118,7 @@ This exercise focuses on implementing some operations to a list of words using t
 ```
 
 ---
-1.2 <a name="result1"></a>Results.
+**1.2 <a name="result1"></a>Results ㊗️:**
 
 ![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.003.png)
 
@@ -129,7 +129,7 @@ This exercise focuses on implementing some operations to a list of words using t
 
 ---
 
-1.3 <a name="methods1"></a>Methods Implementation.
+**1.3 <a name="methods1"></a>Methods Implementation😈: **
 
 **Libraries :** 
 
@@ -155,7 +155,7 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
 
 ---
 
-1.4 <a name="knowledge"></a>Knowledge.
+**1.4 <a name="knowledge"></a>Knowledge 🧠: **
 
 *For this exercise we see how to filter the data using a specific conditions, although using map to change or transfer the data with shortcuts such as (Employe::getName) or directly (e -> e.getName then use the println function to show the results), all of these are very useful.*
 
@@ -164,7 +164,7 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
                          
 We saw in these exercises how to manage employees and made some operations, the purpose here is to understand the ArrayList combined with streams. 
 
-2.1 <a name="employeclas"></a>Emoloye Class.
+**2.1 <a name="employeclas"></a>Emoloye Class👷: **
 
 `Tasks`
 
