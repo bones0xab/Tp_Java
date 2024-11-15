@@ -158,7 +158,7 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
 
 ---
 
-**1.4 <a name="knowledge"></a>Knowledge 🧠: **
+**1.4 <a name="knowledge"></a>Knowledge 🧠:**
 --
 *For this exercise we see how to filter the data using a specific conditions, although using map to change or transfer the data with shortcuts such as (Employe::getName) or directly (e -> e.getName then use the println function to show the results), all of these are very useful.*
 
@@ -167,7 +167,7 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
                          
 We saw in these exercises how to manage employees and made some operations, the purpose here is to understand the ArrayList combined with streams. 
 
-**2.1 <a name="employeclas"></a>Emoloye Class👷: **
+**2.1 <a name="employeclas"></a>Emoloye Class👷:**
 --
 
 `Tasks`
