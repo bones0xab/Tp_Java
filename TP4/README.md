@@ -47,7 +47,7 @@
 ***
 
 
-<a name="exercice1"></a>|Exercise 1:|
+# <a name="exercice1"></a> Exercise 1:
 
 This exercise focuses on building an application JAVA for managing list of products. The goal is to implement a set of operations.
 
@@ -293,7 +293,7 @@ Scanner :
 ***
 
 
-<a name="exercice2"></a>|Exercise 2: |
+# <a name="exercice2"></a>|Exercise 2:|
 
 In this exercise we want to create a Hashmap for storing the notes of students, although create a name as key and notes as a value, the goal here to implement operations to the Hashmap for a better understanding of the Maps in JAVA. 
 
@@ -441,7 +441,7 @@ Collection<Double> : Also this for store the values.
 
 ***
 
-<a name="exercice3"></a>|Exercise 03:| 
+# <a name="exercice3"></a>|Exercise 03:| 
 
 In this exercise we want to discover the knowledge of the Sets in JAVA, the goal here is to create groups and implement some manipulations in order to understand the Sets.
 
