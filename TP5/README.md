@@ -173,31 +173,30 @@ We saw in these exercises how to manage employees and made some operations, the 
 - Create getters of attributes
 
   ```java
-- public class Employe {
+public class Employe {
 
-  `    `private String Nom,Departement;
-  `    `private double salaire;
+    private String Nom, Departement;
+    private double salaire;
 
-  `    `public Employe(String n, String d, double s)
-  `    `{
-  `            `this.Nom = n;
-  `            `this.Departement = d;
-  `            `this.salaire = s;
-  `    `}
+    public Employe(String n, String d, double s) {
+        this.Nom = n;
+        this.Departement = d;
+        this.salaire = s;
+    }
 
-  `    `public String getName()
-  `    `{
-  `        `return this.Nom;
-  `    `}
+    public String getName() {
+        return this.Nom;
+    }
 
-  `    `public double getSalaire() {
-  `        `return salaire;
-  `    `}
+    public double getSalaire() {
+        return salaire;
+    }
 
-  `    `public String getDepartement() {
-  `        `return Departement;
-  `    `}
-  }
+    public String getDepartement() {
+        return Departement;
+    }
+}
+
   ```
 
 ---
@@ -217,101 +216,93 @@ We saw in these exercises how to manage employees and made some operations, the 
 ```java
 import java.io.LineNumberInputStream;
 import java.time.temporal.Temporal;
-import java.util.\*;
+import java.util.*;
 import java.util.stream.Collectors;
 
-
 public class Main {
-`    `public static void main(String[] args) {
+    public static void main(String[] args) {
 
-`        `ArrayList<Employe> list = new ArrayList<Employe>();
+        ArrayList<Employe> list = new ArrayList<Employe>();
 
-`        `Employe e1 = new Employe("Abdelkebir","Bouchti",7000);
-`        `Employe e2 = new Employe("Doha","Banoui",8000);
-`        `Employe e3 = new Employe("Rachid","Hsina",7000);
-`        `Employe e4 = new Employe("Abdesamad","zelzouli",20000);
+        Employe e1 = new Employe("Abdelkebir","Bouchti",7000);
+        Employe e2 = new Employe("Doha","Banoui",8000);
+        Employe e3 = new Employe("Rachid","Hsina",7000);
+        Employe e4 = new Employe("Abdesamad","zelzouli",20000);
 
-`        `list.add(e1);list.add(e2);list.add(e3);list.add(e4);
+        list.add(e1); list.add(e2); list.add(e3); list.add(e4);
 
+        System.out.println("-".repeat(1000));
+        double totalsalary = list.stream()
+            .mapToDouble(e -> e.getSalaire())
+            .sum();
 
-`        `System.*out*.println("-".repeat(1000));
-`        `double totalsalary = list.stream()
-.mapToDouble(e -> e.getSalaire())
-.sum();
+        System.out.println("Total Salary : " + totalsalary);
+        System.out.println("-".repeat(1000));
 
-`        `System.*out*.println("Total Salary : " + totalsalary);
-`        `System.*out*.println("-".repeat(1000));
+        System.out.println("-".repeat(1000));
+        list.stream()
+            .map(Employe::getName)
+            .sorted()
+            .forEach(System.out::println);
+        System.out.println("-".repeat(1000));
 
+        System.out.println("-".repeat(1000));
+        double MinSalary = list.stream()
+            .mapToDouble(Employe::getSalaire)
+            .min()
+            .orElse(0.0);
+        if (MinSalary != 0)
+            System.out.println("Min Salary : " + MinSalary);
+        else
+            System.out.println("This is an empty list ! \n");
+        System.out.println("-".repeat(1000));
 
-`        `System.*out*.println("-".repeat(1000));
-`        `list.stream()
-.map(Employe::getName)
-.sorted()
-.forEach(System.*out*::println);
-`        `System.*out*.println("-".repeat(1000));
+        System.out.println("-".repeat(1000));
 
+        System.out.println("Enter Salary for filtering the Employees :");
+        Scanner scn = new Scanner(System.in);
 
-`        `System.*out*.println("-".repeat(1000));
-`        `double MinSalary = list.stream()
-.mapToDouble(Employe::getSalaire)
-.min()
-.orElse(0.0);
-`        `if (MinSalary != 0)
-`            `System.*out*.println("Min Salary : " + MinSalary);
-`        `else
-`            `System.*out*.println("This is an empty list ! \n");
-`        `System.*out*.println("-".repeat(1000));
+        double Compare = scn.nextDouble();
+        ArrayList<Employe> new_list =
+            list.stream()
+                .filter(e -> e.getSalaire() > Compare)
+                .collect(Collectors.toCollection(ArrayList::new));
 
+        if(!new_list.isEmpty()) {
+            for (Employe e : new_list) {
+                System.out.println(e.getName());
+            }
+        } else {
+            System.out.println("No one has greater than this value: " + Compare);
+        }
 
-`        `System.*out*.println("-".repeat(1000));
+        scn.close();
+        System.out.println("-".repeat(1000));
+        System.out.println("-".repeat(1000));
 
-`        `System.*out*.println("Enter Salary for filtring the Employes :");
-`        `Scanner scn = new Scanner(System.*in*);
+        // Here converting employee object to its salary
+        double maxSalary =
+            list.stream()
+                .map(Employe::getSalaire)
+                .reduce(Double.MIN_VALUE, (e, ee) -> e > ee ? e : ee);
 
-`        `double Compare = scn.nextDouble();
-`        `ArrayList<Employe> new\_list =
-`                       `list.stream()
-.filter(e -> e.getSalaire() > Compare)
-.collect(Collectors.*toCollection*(ArrayList::new));
+        if (maxSalary != 0)
+            System.out.println("The max salary : " + maxSalary);
+        else
+            System.out.println("This is an empty list!");
 
-`        `if(!new\_list.isEmpty())
-`        `{
-`            `for (Employe e : new\_list)
-`            `{
-`                `System.*out*.println(e.getName());
-`            `}
-`        `}
-`        `else
-`            `System.*out*.println("No one has Greater then this value : "+ Compare);
+        System.out.println("-".repeat(1000));
 
-`        `scn.close();
-`        `System.*out*.println("-".repeat(1000));
-`        `System.*out*.println("-".repeat(1000));
+        String concatenateNames = list.stream()
+            .map(Employe::getName)
+            .reduce("", (n1, n2) -> n1 + n2);
 
-`        `//here converting employe object to it s salary
-`        `double maxSalary =
-`                `list.stream()
-.map(Employe::getSalaire)
-.reduce(Double.*MIN\_VALUE*, (e,ee) -> e > ee ? e : ee  );
+        System.out.println("Concatenate : " + concatenateNames);
+        System.out.println("-".repeat(1000));
 
-`        `if (maxSalary != 0)
-`            `System.*out*.println("The max salary : " + maxSalary);
-`        `else
-`            `System.*out*.println("This is Empty list !");
-
-
-`        `System.*out*.println("-".repeat(1000));
-
-`        `String concatenateNames = list.stream()
-.map(Employe::getName)
-.reduce("", (n1,n2) -> n1 + n2);
-
-
-`        `System.*out*.println("Concatenate : " + concatenateNames);
-`        `System.*out*.println("-".repeat(1000));
-
-`        `}
+    }
 }
+
 ```
 ---
 
