@@ -38,9 +38,9 @@
 **
 
 ***
-                        |             |
+
 <a name="exercice1"></a>|`Exercise 1:`|
-                        |-------------| 
+
                         
 This exercise focuses on implementing some operations to a list of words using the methods inside the stream library :Filter , Transform , Convert.
 
@@ -164,7 +164,6 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
 
 *** 
 <a name="exercice2"></a> |`Exercise 2:`|
-                         |-------------| 
                          
 We saw in these exercises how to manage employees and made some operations, the purpose here is to understand the ArrayList combined with streams. 
 
