@@ -131,8 +131,9 @@ This exercise focuses on implementing some operations to a list of words using t
 
 ---
 
-**1.3 <a name="methods1"></a>Methods Implementation😈: **
+** 1.3 <a name="methods1"></a> Methods Implementation😈: **
 --
+
 `Libraries :`
 
 Java.util.Arrays : For working with arrays.
