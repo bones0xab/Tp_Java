@@ -56,7 +56,7 @@ This exercise focuses on implementing some operations to a list of words using t
 - Flatten the words into one list.
 - Transform to the givem form : NOM-INDEX.
 
-
+```java
   import java.util.Arrays;
   import java.util.List;
   import java.util.stream.Collectors;
@@ -114,7 +114,8 @@ This exercise focuses on implementing some operations to a list of words using t
             .mapToObj(i -> list.get(i) + "-" + i)  
             .forEach(System.out::println);  
     }  
-}  
+}
+```
 
 ---
 1.2 <a name="result1"></a>Results.
