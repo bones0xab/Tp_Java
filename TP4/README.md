@@ -14,7 +14,7 @@
 
 
 
-Content
+<h2 align="center">Content</h2>
 
 <a name="_1.1_class_diagram:"></a>[**Exercise 01 : Lists**](#exercice1)
 
@@ -44,13 +44,10 @@ Content
 [](#summary)
 
 
+***
 
 
-
-
-
-
-<a name="exercice1"></a>Exercise 1:
+<a name="exercice1"></a>|Exercise 1:|
 
 This exercise focuses on building an application JAVA for managing list of products. The goal is to implement a set of operations.
 
@@ -62,17 +59,19 @@ Instructions:
 
 [Made some operations : Ajouter, Supprimer, Afficher, Modifier, Rechercher]. 
 
-1. <a name="classdiagram1"></a>Class diagram
 
+**1. <a name="classdiagram1"></a>Class diagram📝:**
+--
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.003.png)
 
 Figure 1 – Show the class diagram of the exercise.
 
+---
 
+**1.1 <a name="produitclass"></a>Produit Class🫀:**
+--
 
-1. <a name="produitclass"></a>Produit Class
-
-   Tasks: 
+   `Tasks: `
 
 - Create a class Produit with the attributes correspondant.
 - Create a cunstrutor for input the attributes.
@@ -118,9 +117,11 @@ public class Produit {
 
 ```
 
-1. <a name="gestionproduitsclass"></a>GestionProduitsApp Class
+---
 
-`     `Tasks:
+**1.2 <a name="gestionproduitsclass"></a>GestionProduitsApp Class🍎:**
+--
+`Tasks:`
 
 - Create List of Products
 - Create Methods : AjouterProduit, SupprimerProduit, AfficherList , Modifie Produit , RechercherProduit. 
@@ -244,25 +245,27 @@ public class GestionProduit {
 
 
 ```
+---
 
-
-1. <a name="results1"></a>Results:
-
+**1.3 <a name="results1"></a>Results🍊:**
+--
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.004.png)
 
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.005.png)
 
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.006.png)
 
-1. <a name="methods1"></a>Methods Implementation
+---
 
-Libraries : 
+**1.4 <a name="methods1"></a>Methods Implementation👿:**
+--
+**Libraries :** 
 
 -> ArrayList : This is a dynamic Array for hundling the data given.
 
 -> Scanner : It’s for read the standard output of the user.
 
-Methods :
+**Methods :**
 
 ArrayList<Produit> 
 
@@ -287,18 +290,16 @@ Scanner :
 
 
 
+***
 
 
-
-
-
-<a name="exercice2"></a>Exercise 2: 
+<a name="exercice2"></a>|Exercise 2: |
 
 In this exercise we want to create a Hashmap for storing the notes of students, although create a name as key and notes as a value, the goal here to implement operations to the Hashmap for a better understanding of the Maps in JAVA. 
 
-<a name="main2"></a> 2.1 Main Class
-
-Tasks : 
+**<a name="main2"></a> 2.1 Main Class😈:**
+--
+`Tasks : `
 
 - Create a HashMap for store the students by name and note.
 - Insert of the notes in the HashMap
@@ -393,22 +394,27 @@ public class Main {
 
 ```
 
+---
 
-<a name="results2"></a>2.2  Results
+**<a name="results2"></a>2.2  Results🎆:**
+--
 
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.007.png)
 
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.008.png)
 
-3. <a name="methods2"></a>Methods Implementation
+---
 
-Libraries : 
+**2.3 <a name="methods2"></a>Methods Implementation👿:**
+--
+
+**Libraries :** 
 
 - Collections: It’s for Managing the objects in JAVA in easy manner.
 - HashMap: This is a data structure for storing and retrieving the data using the hash table for better implementation.
 - Set: Also a data structure used for avoiding the redundancy. 
 
-Methods :
+**Methods:**
 
 HashMap<String, Double> :To store the data in here and work with it in efficient way.
 
@@ -433,15 +439,15 @@ Collection<Double> : Also this for store the values.
 .forEach : is a loop using a lambda for quick process.
 
 
+***
 
-
-<a name="exercice3"></a>Exercise 03: 
+<a name="exercice3"></a>|Exercise 03:| 
 
 In this exercise we want to discover the knowledge of the Sets in JAVA, the goal here is to create groups and implement some manipulations in order to understand the Sets.
 
-<a name="etudiantclass"></a>3.1 Etudiant Class
-
-Tasks : 
+**<a name="etudiantclass"></a>3.1 Etudiant Class👨‍🎓:**
+--
+`Tasks : `
 
 - Create a constructor for inserting the data of students.
 - Create a getName() for better manipulation inside the code.
@@ -481,9 +487,9 @@ public class Etudiant {
 ```
 
 
-<a name="main3"></a>3.2 Main Class.
+**<a name="main3"></a>3.2 Main Class🔥:**
 
-Tasks : 
+`Tasks : `
 
 - Create two groups A and B using the HashSet.
 - Add names of students to each group.
@@ -554,8 +560,10 @@ public class Main {
 
 
 ```
+---
 
-<a name="problem"></a>3.3 Problem Faced.
+**<a name="problem"></a>3.3 Problem Faced⚒️:**
+--
 
 In the middle of the code where I want to test the intersection of the groups, I work with the method retainAll, but in the moment of comparing the names, by default in JAVA he compares the memory address of objects, so for example, when we want to test intersection “Abdelkebir” groupA, “Abdelkebir“ groupeB, even these are the same name, but the method retainAll inside of it we found, equals(), this equals compare the Object Address, not the names.
 And the object addresses are different.
@@ -564,7 +572,10 @@ And the object addresses are different.
 
 In the image above of the executed code without a solution look at the intersaction, even if we made the retailAll(), nothing appear. 
 
-<a name="solution"></a>3.4 Solution.
+---
+
+**<a name="solution"></a>3.4 Solution🥇:**
+--
 
 ! The solution here is to override the methods equal and HashCode for manipulation the objects based on the name and not memory address of the objects.
 
@@ -585,27 +596,29 @@ public int hashCode() {
 
 
 ```
+---
 
-
-<a name="results3"></a>3.4 Results.
-
+**<a name="results3"></a>3.4 Results😈:**
+--
 ![](assets4/Aspose.Words.7618e0c5-ef85-4530-8972-05572e5633a7.010.png)
 
 <a name="methods3"></a>3.5 Methods Implementation.
 
-Libraries : 
+**Libraries :**
 
 HashSet: this is a library for handling a data.
 
-Methods :
+**Methods :**
 
 .retainAll(): This method is used to test the intersection between objects.
 
 .addAll(): This method is used to make the union of two objects.
 
 
+***
 
-<a name="summary"></a>Summary
+
+**<a name="summary"></a>Summary**
 
 *In those exercises in the above,*
 
