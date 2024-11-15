@@ -37,14 +37,16 @@
 [](#summary)
 **
 
+***
 
-<a name="exercice1"></a>Exercise 1:
+<a name="exercice1"></a>|`Exercise 1:`|
+                        |-------------| 
+                        
+This exercise focuses on implementing some operations to a list of words using the methods inside the stream library :Filter , Transform , Convert.
 
-This exercise focus on implement some operations to a list of words using the methods inside the stream library :Filter , Transform , Convert.
+1.1 <a name="classdiagram1"></a><a name="main1"></a>Main Class.
 
-1. <a name="classdiagram1"></a><a name="main1"></a>Main Class.
-
-Tasks 
+`Tasks`
 
 - Filter the words by the character a.
 - Filter words by length and reverse each one of them.
@@ -118,8 +120,8 @@ Tasks
 
   `    `}
   }
-
-1. <a name="result1"></a>Results.
+---
+1.2 <a name="result1"></a>Results.
 
 ![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.003.png)
 
@@ -128,9 +130,9 @@ Tasks
 ![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.005.png)
 
 
+---
 
-
-1. <a name="methods1"></a>Methods Implementation.
+1.3 <a name="methods1"></a>Methods Implementation.
 
 **Libraries :** 
 
@@ -154,19 +156,21 @@ IntStream.range(start, finish) : This is for create a list of int numbers.
 
 .mapToObj() : Very useful method to convert the int to String.
 
+---
 
-
-1. <a name="knowledge"></a>Knowledge.
+1.4 <a name="knowledge"></a>Knowledge.
 
 *For this exercise we see how to filter the data using a specific conditions, although using map to change or transfer the data with shortcuts such as (Employe::getName) or directly (e -> e.getName then use the println function to show the results), all of these are very useful.*
 
-<a name="exercice2"></a>Exercise 2:
-
+*** 
+<a name="exercice2"></a> |`Exercise 2:`|
+                         |-------------| 
+                         
 We saw in these exercises how to manage employees and made some operations, the purpose here is to understand the ArrayList combined with streams. 
 
-1. <a name="employeclas"></a>Emoloye Class.
+2.1 <a name="employeclas"></a>Emoloye Class.
 
-Tasks
+`Tasks`
 
 - Create a constructor to store the values of employe
 - Create Attributes of employe
@@ -197,11 +201,11 @@ Tasks
   `    `}
   }
 
+---
 
+2.2 <a name="main2"></a>Main Class
 
-1. <a name="main2"></a>Main Class
-
-Tasks 
+`Tasks `
 
 - Create a list of employees using ArrayList.
 - Use mapToDouble and sum for calculate the total salaries.
@@ -309,18 +313,17 @@ public class Main {
 `        `}
 }
 
+---
 
-1. <a name="results2"></a>Results.
+2.3 <a name="results2"></a>Results.
 
 ![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.006.png)
 
 ![](asssets5/Aspose.Words.8d19784f-2820-4d0d-abb0-bdb1eca3aa9a.007.png)
 
+---
 
-
-
-
-1. <a name="methods2"></a>Methods Implementation.
+2.4 <a name="methods2"></a>Methods Implementation.
 
 The same methods and libraries of the first exercises I get to mention the new methods !
 
@@ -332,9 +335,11 @@ The same methods and libraries of the first exercises I get to mention the new m
 
 .orElse() : We made this for the Case if the user enter nothing, the program return 0.
 
-.sum() : To some the salaries of emplyees
+.sum() : To some the salaries of employees
 
-1. <a name="knowldege2"></a>Knowledge.
+---
+
+2.5 <a name="knowldege2"></a>Knowledge.
 
 *In this exercise we get the knowledge of how to use the methods mentions in exercise for implementing the the need of exercise,*
 
@@ -344,7 +349,7 @@ The same methods and libraries of the first exercises I get to mention the new m
 
 
 \*
-
+***
 <a name="summary"></a>Summary
 
 *In the end we can say the streams are an amazing way to process collections and take control over them in easy way, streams allow developers to perform complex data manipulations in smart manner.*
