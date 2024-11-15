@@ -14,7 +14,7 @@
 
 
 
-Content
+<h2 align="center">Content</h2>
 
 <a name="_1.1_class_diagram:"></a>[**Exercise 01**](#exercice1)
 
