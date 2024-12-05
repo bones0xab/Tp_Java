@@ -52,7 +52,7 @@ The focus of this activity is to understand how to use the Collections and manip
 
 ### 5. Practical Activity 5
 **Description:**
-This exercise get made attention to the streams and hwo they facilate the manipulations of collections in JAVA
+This exercise get made attention to the streams and hwo they facilitate the manipulations of collections in JAVA
 
 **Topics covered:**
 - [Filters]
@@ -60,4 +60,14 @@ This exercise get made attention to the streams and hwo they facilate the manipu
 - [MaptObj]
 - [flatMap]
 
+  ***
+
+  ### 6. Practical Activity 6
+**Description:**
+This is a practical work to practice ower knowledge of javaFX and see how the applications are made.
+
+**Topics covered:**
+- [Controllers]
+- [DAO]
+- [Object Implementation]
 
