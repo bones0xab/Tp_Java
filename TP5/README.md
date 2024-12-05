@@ -19,17 +19,24 @@
 <a name="_1.1_class_diagram:"></a>[**Exercise 01**](#exercice1)
 
 1.1 [Main Class](#main1)
+
 1.2 [Results](#result1)
+
 1.3 [](#result1)[Methods Implementation](#methods1)
+
 1.4 [](#methods1)[Knowledge](#knowledge)
 
 
 [**Exercise 02**](#exercice2)
 
 2.1 [Employe Class](#employeclas)
+
 2.2 [Main Class](#main2)
+
 2.3 [](#main2)[Results](#results2)
+
 2.4 [](#results2)[Methods Implementation](#methods2)
+
 2.5 [](#methods2)[Knowledge](#knowldege2)
 
 [**Summary** ](#summary)
