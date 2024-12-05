@@ -33,8 +33,41 @@
 
 ---
 
-### Relations
+### Relations ☺️:
 - **1:N Relation**:
   - Une instance de `Departement` peut être associée à plusieurs instances de `Professeur`.
   - Implémentée via la clé étrangère `id_depart` dans la table `Professeur` qui fait référence à `id_depart` dans la table `Departement`.
 
+
+***
+
+### Goal 🥅:
+---
+In this Practical activity we want to make an application for manipulate some professors and departments using javaFX,
+First of all, the application must be runned by javaFX and scene Builder , finally Mysql for handling the data !
+
+### Functionalities ▶️:
+---
+
+As we see in the MLD and MCD, the application must include features like addProfessor addDepartment and the other requested functionalities.
+
+**Professor requirement 👨‍🏫:**
+```bash
+-> addProfessor
+-> deleteProfessor
+-> updateProfessor
+-> affectDeptoProfessor
+-> searchProfessor
+-> showProfessors
+```
+
+**Departement requirement 🏬:**
+```bash
+-> addDepartment
+-> deleteDepartement
+-> affectDepartement
+-> updateDepartement
+-> ShowprofessorbyDepartment
+```
+
+***
