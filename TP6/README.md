@@ -150,7 +150,7 @@ The last button it's just for update tableview (It's automatically , but in the 
 ---
 ## Departements
 
-In the first place, we see this table view by default show all departements those are available.
+In the first place, we see this table view by default show all departments those are available.
 
 ![image](https://github.com/user-attachments/assets/98e0b5ba-dcf5-410d-9648-02f834bc7293)
 
@@ -180,4 +180,33 @@ This is the last button where we want to see professors for a specific departmen
 ***
 
 
+`Project Summary:` JavaFX Application for Managing Professors and Departments
+This project is a university management system developed using JavaFX. It provides a graphical user interface for managing professors and departments, with the following key functionalities:
 
+Database Integration:
+
+Utilizes MySQL to store and manage data for professors and departments.
+Implements a structured MLD (Logical Data Model) for database design.
+Features:
+
+Add, update, delete, and view professors and departments.
+Display relationships between professors and their respective departments.
+Ensure data integrity with primary and foreign keys.
+Core Components:
+
+Class Diagram: Represents the design of the system.
+Java Classes: Implements persistence with classes like Professeur and Departement.
+SingletonConnexionDB: Ensures a single database connection.
+IMetier Interface: Declares business logic methods, implemented in a dedicated class.
+JavaFX Interface: A user-friendly GUI for interacting with the application.
+Testing:
+
+Includes a console application for testing database operations before integrating with the GUI.
+Goal:
+
+Simplify management of professors and departments through an intuitive interface and efficient data handling.
+
+***
+
+
+# END
