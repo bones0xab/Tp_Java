@@ -71,3 +71,16 @@ As we see in the MLD and MCD, the application must include features like addProf
 ```
 
 ***
+
+## Databases Screens 🖼️:
+---
+
+### Professors Data👨‍🏫:
+![image.png](assets/DBprof.png)
+
+
+### Department Date🏬:
+![image.png](assets/DBdep.png)
+
+
+
