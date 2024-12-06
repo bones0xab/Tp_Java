@@ -3,7 +3,7 @@
 
 ### MCD
 ---
-![image.png](assets/img.png)
+![image.png](assets/MCD.png)
 
 
 ### MLD
