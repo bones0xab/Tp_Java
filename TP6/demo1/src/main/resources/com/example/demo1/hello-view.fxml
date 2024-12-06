@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo1.MainController">
+    <top>
+        <Label text="Application de Gestion Universitaire" style="-fx-font-size: 24px; -fx-font-weight: bold;" BorderPane.alignment="CENTER" />
+    </top>
+
+    <center>
+        <VBox spacing="20" alignment="CENTER">
+            <Button fx:id="manageProfessorsButton" text="Gérer les Professeurs" style="-fx-font-size: 16px;"  onAction="#handleManageProfessors"/>
+            <Button fx:id="manageDepartmentsButton" text="Gérer les Départements" style="-fx-font-size: 16px;" onAction="#handleManageDepartments"/>
+        </VBox>
+    </center>
+</BorderPane>

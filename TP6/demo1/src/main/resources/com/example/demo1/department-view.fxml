@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<?import javafx.scene.layout.VBox?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.demo1.DepController">
+
+    <Label fx:id="departmentLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;" text="Gestion des Départements" AnchorPane.leftAnchor="10" AnchorPane.topAnchor="10" />
+
+    <TableView fx:id="departmentTable" AnchorPane.leftAnchor="10" AnchorPane.rightAnchor="10" AnchorPane.topAnchor="40">
+        <columns>
+            <TableColumn fx:id="nomColumn" text="Nom du Département" />
+        </columns>
+    </TableView>
+
+    <HBox spacing="10" AnchorPane.bottomAnchor="10" AnchorPane.leftAnchor="10">
+        <Button fx:id="addDepartmentButton" text="Ajouter Département" />
+        <Button fx:id="updateDepartmentButton" text="Modifier Département" />
+        <Button fx:id="deleteDepartmentButton" text="Supprimer Département" />
+        <Button fx:id="viewProfessorsButton" text="Afficher Professeurs" />
+    </HBox>
+
+
+    <TableView fx:id="professorTableView" visible="false">
+        <columns>
+            <TableColumn fx:id="professorNameColumn" text="Nom du Professeur" />
+        </columns>
+    </TableView>
+
+    <Button fx:id="closeProfessorTableViewButton" visible="false" text="Fermer" AnchorPane.bottomAnchor="10" AnchorPane.rightAnchor="10"/>
+
+
+</AnchorPane>
