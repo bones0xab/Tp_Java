@@ -124,8 +124,20 @@ we see the changement.
 
 # Exercise 3 3️⃣:
 ---
-`Overview`: In this exercise, we want to make a program for uses the generic feature of java, to make the simplicity of coding.
+`Overview`: In this exercise, we want to make a program for uses the generic feature of Java, to make the simplicity of coding.
 
+**I will share the screens for this last exercise cause it's so long !**
 
+![image](https://github.com/user-attachments/assets/6cf7eb81-505d-45fd-b67d-6287968e8cf2)
 
+![image](https://github.com/user-attachments/assets/cf5d22ad-208c-41c5-811b-9549b2b861c4)
 
+![image](https://github.com/user-attachments/assets/268a4cc4-7e8b-4af1-b1e3-4225006d6fe6)
+
+This is the program or the application of a client, let's get dive into the output directly for understanding more better.
+
+**The first image show the picture of the Menu**
+
+![image](https://github.com/user-attachments/assets/e2f5348b-2082-4b4b-91b8-804ccdb77a49)
+
+****
