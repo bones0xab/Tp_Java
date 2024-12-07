@@ -90,10 +90,12 @@ The main method is for handling the cases and I make switch for see the cases.
 ## Scenario Output.
 ---
 *This is the directory for storing the contacts :* 
+
 ![image](https://github.com/user-attachments/assets/46529e5c-4258-4492-a1b0-71b2226344e4)
 
 
 *This is the Menu*
+
 ![image](https://github.com/user-attachments/assets/c9073d44-7cc2-4537-9776-fa96fc08dac9)
 ![image](https://github.com/user-attachments/assets/addf56db-d86c-40bc-b824-094cf73f32dc)
 
@@ -101,16 +103,20 @@ We see the contact of Mestari has been added successfully to the directory.
 
 
 *The case of searching the Number of some contact*
+
 ![image](https://github.com/user-attachments/assets/a20a7abe-125a-44c5-bcd4-3726707db379)
 
 *The case of deleted contact*
+
 ![image](https://github.com/user-attachments/assets/fa923495-7ca1-4922-adc1-b4d8eb0867e0)
 
 
 *The case where we want to update some contact*
+
 ![image](https://github.com/user-attachments/assets/186d17e6-808f-49a9-b4ed-1cef2853168c)
 
 we see the changement.
+
 ![image](https://github.com/user-attachments/assets/b8e0fac4-2b15-40c4-bd85-294bded6ac23)
 
 
