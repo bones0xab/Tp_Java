@@ -114,5 +114,12 @@ we see the changement.
 ![image](https://github.com/user-attachments/assets/b8e0fac4-2b15-40c4-bd85-294bded6ac23)
 
 
+***
+
+# Exercise 3 3️⃣:
+---
+`Overview`: In this exercise, we want to make a program for uses the generic feature of java, to make the simplicity of coding.
+
+
 
 
