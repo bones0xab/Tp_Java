@@ -136,8 +136,10 @@ we see the changement.
 
 This is the program or the application of a client, let's get dive into the output directly for understanding more better.
 
-**The first image show the picture of the Menu**
+**The first image shows the picture of the Menu**
 
 ![image](https://github.com/user-attachments/assets/e2f5348b-2082-4b4b-91b8-804ccdb77a49)
 
 ****
+
+
