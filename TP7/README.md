@@ -184,9 +184,44 @@ This is the quit
 
 ![image](https://github.com/user-attachments/assets/e1799870-d4f0-4aa9-904c-ebe6a89336aa)
 
+----
+
+## Products Side.
 ---
 
+### Operation 1: add & show. 
+---
+
+After I add the products I will combine the show and add operations here for a simple process.
+
+![image](https://github.com/user-attachments/assets/1c7dea94-077a-416f-a1e9-f5e899737eba)
+
+### Operation 2: 
+---
+I'm looking for the coffee in the list.
+
+![image](https://github.com/user-attachments/assets/f42f9b49-fe0f-4cfa-9d25-d06c3beff9ba)
+
+
+### Operation 3: Delete product.
+---
+After I use the case of delete and I show again, we see that the coffee isn't here or in the list of products! 
+
+![image](https://github.com/user-attachments/assets/04a7d163-8d99-48d5-904f-8b3fc23fa170)
+
+### Operation 4: Save Product.
+---
+
+In this operation I use the save option and I rebuilt the project then I show the list it's the same! 
+
+![image](https://github.com/user-attachments/assets/9d5a7498-89d5-48a6-ac4a-ea9a73e9a13b)
+
+![image](https://github.com/user-attachments/assets/d6e7f7e1-1d91-4fc1-b964-0ee8c9161ef7)
+
+*The other operations are like the clients side.*
 
 ****
+
+
 
 
