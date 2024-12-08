@@ -177,6 +177,16 @@ After restarting the project build I found those :
 
 ![image](https://github.com/user-attachments/assets/f9573805-52b8-440a-af47-a54dcac8231a)
 
+### Operation 6 : Quit
+---
+
+This is the quit 
+
+![image](https://github.com/user-attachments/assets/e1799870-d4f0-4aa9-904c-ebe6a89336aa)
+
+---
+
+
 ****
 
 
