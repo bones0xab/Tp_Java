@@ -214,8 +214,6 @@ After I use the case of delete and I show again, we see that the coffee isn't he
 
 In this operation I use the save option and I rebuilt the project then I show the list it's the same! 
 
-![image](https://github.com/user-attachments/assets/9d5a7498-89d5-48a6-ac4a-ea9a73e9a13b)
-
 ![image](https://github.com/user-attachments/assets/d6e7f7e1-1d91-4fc1-b964-0ee8c9161ef7)
 
 *The other operations are like the clients side.*
