@@ -220,6 +220,12 @@ In this operation I use the save option and I rebuilt the project then I show th
 
 ****
 
+# Summary.
+---
+
+In the end, we see how we use the Generic in JAVA, and also we see how we treat the real-world scenarios, in the README principal of my repository i include all the stuff and what we learn on this practical activity.
+
+
 
 
 
