@@ -124,7 +124,7 @@ we see the changement.
 
 # Exercise 3 3️⃣:
 ---
-`Overview`: In this exercise, we want to make a program for uses the generic feature of Java, to make the simplicity of coding.
+`Overview`: In this exercise, we want to make a program that uses the generic feature of Java, to make the simplicity of coding simple.
 
 **I will share the screens for this last exercise cause it's so long !**
 
@@ -136,9 +136,46 @@ we see the changement.
 
 This is the program or the application of a client, let's get dive into the output directly for understanding more better.
 
-**The first image shows the picture of the Menu**
+## Client Side. 
+--
+
+**Menu**
 
 ![image](https://github.com/user-attachments/assets/e2f5348b-2082-4b4b-91b8-804ccdb77a49)
+
+
+### Operation 1: Add clients. 
+---
+
+![image](https://github.com/user-attachments/assets/45ca35f8-1f54-4495-8a5b-522ff8e4fc1a)
+
+
+### Operation 2 : show Clients.
+---
+
+![image](https://github.com/user-attachments/assets/a2a2f4a1-42bb-4482-8345-6b6aa12a8262)
+
+### Operation 3 : Search Clients.
+---
+
+![image](https://github.com/user-attachments/assets/5716f40c-a974-4a59-9ed9-b09a7ac71b98)
+
+### Operation 4 : Delete clients.
+---
+
+![image](https://github.com/user-attachments/assets/00080cb1-ce5f-46aa-b190-ad5d91c6b66d)
+
+### Operation 5 : SaveCleints.
+---
+
+![image](https://github.com/user-attachments/assets/71bb212c-9821-47bb-a9ae-83dfe627beff)
+
+I made the case and will restart the project to see if I can find the client's names!
+
+
+After restarting the project build I found those : 
+
+![image](https://github.com/user-attachments/assets/f9573805-52b8-440a-af47-a54dcac8231a)
 
 ****
 
