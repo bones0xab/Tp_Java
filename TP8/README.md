@@ -51,9 +51,9 @@ class Talkative implements Runnable {
     }
 }
 
-//Runnable is interface to made a task executed by thread.
-//THread is to run the task concurrentlu at the same time
-//in the conclusion we use thread to made separeate block of tasks and we use the start to execute or implement all in the same time
+//Runnable is an interface to make a task executed by thread.
+//THread is to run the task concurrently at the same time
+//in the conclusion we use thread to made separate block of tasks and we use the start to execute or implement all in the same time
 ```
 
 ### Main
@@ -90,4 +90,4 @@ This is the purpose of the exercise I describe what I made!
 
 ![image](https://github.com/user-attachments/assets/64beed09-ab08-4c35-833b-55d153d8e293)
 
-it's the output start from `int 0 with the 100 times repeatedly` and you can see the disorder of them .
+it's the output starting from `int 0 with the 100 times repeatedly` and you can see their disorder.
