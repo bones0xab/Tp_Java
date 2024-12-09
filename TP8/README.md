@@ -25,7 +25,7 @@ and see how we can run blocks of code in parallel way (or in the same time).
 ---
 
 
-## Let's Code :start:
+## Let's Code 💸
 ---
 
 ### Class Talkative
