@@ -91,3 +91,27 @@ This is the purpose of the exercise I describe what I made!
 ![image](https://github.com/user-attachments/assets/64beed09-ab08-4c35-833b-55d153d8e293)
 
 it's the output starting from `int 0 with the 100 times repeatedly` and you can see their disorder.
+
+
+
+
+---
+
+## Exercise 2 :fire:.
+---
+
+### Overview
+In this exercise, we aim to demonstrate the use of multithreading in Java to calculate the sum of an array by dividing the workload among multiple threads.
+
+---
+
+### **Tasks**
+```bash
+-> Create a class `Sommeur` to calculate the sum of a sub-array.
+-> Divide the array into equal parts for the threads to process.
+-> Use `ExecutorService` to manage threads.
+-> Combine the results from all threads to get the total sum.
+-> Test the program with a 100-element array.
+-> Conclude with observations about multithreading and performance.
+
+
