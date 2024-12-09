@@ -113,6 +113,7 @@ In this exercise, we aim to demonstrate the use of multithreading in Java to cal
 -> Combine the results from all threads to get the total sum.
 -> Test the program with a 100-element array.
 -> Conclude with observations about multithreading and performance.
+```
 
 ## Let's Code :start:
 -> Class Sommeur.
