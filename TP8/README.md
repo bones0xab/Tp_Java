@@ -114,4 +114,9 @@ In this exercise, we aim to demonstrate the use of multithreading in Java to cal
 -> Test the program with a 100-element array.
 -> Conclude with observations about multithreading and performance.
 
+## Let's Code :start:
+-> Class Sommeur.
+This class computes the sum of a portion of the array.
+
+
 
