@@ -106,6 +106,7 @@ In this exercise, we aim to demonstrate the use of multithreading in Java to cal
 ---
 
 ### **Tasks**
+
 ```bash
 -> Create a class `Sommeur` to calculate the sum of a sub-array.
 -> Divide the array into equal parts for the threads to process.
@@ -115,9 +116,86 @@ In this exercise, we aim to demonstrate the use of multithreading in Java to cal
 -> Conclude with observations about multithreading and performance.
 ```
 
-## Let's Code :start:
--> Class Sommeur.
+## Let's Code 🎱:
+
+### Class Sommeur.
+---
 This class computes the sum of a portion of the array.
 
+```java
+class Sommeur implements Runnable {
+    private final int[] array;
+    private final int start;
+    private final int end;
+    private int somme = 0;
+
+    public Sommeur(int[] array, int start, int end) {
+        this.array = array;
+        this.start = start;
+        this.end = end;
+    }
+
+    @Override
+    public void run() {
+        for (int i = start; i < end; i++) {
+            somme += array[i];
+        }
+    }
+
+    public int getSomme() {
+        return somme;
+    }
+}
+```
+
+### Main.
+---
+
+```java
+import java.util.concurrent.*;
+
+public class Main {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        // Create an array of integers
+        int[] array = new int[100];
+        Arrays.fill(array, 1); // Fill array with 1s for simplicity
+
+        // Define the number of threads
+        int numThreads = 4;
+        ExecutorService executor = Executors.newFixedThreadPool(numThreads);
+
+        // Calculate range per thread
+        int range = array.length / numThreads;
+        Sommeur[] sommeurs = new Sommeur[numThreads];
+        Future<?>[] futures = new Future<?>[numThreads];
+
+        // Assign tasks to threads
+        for (int i = 0; i < numThreads; i++) {
+            int start = i * range;
+            int end = (i == numThreads - 1) ? array.length : start + range;
+            sommeurs[i] = new Sommeur(array, start, end);
+            futures[i] = executor.submit(sommeurs[i]);
+        }
+
+        // Wait for all threads to finish
+        for (Future<?> future : futures) {
+            future.get(); // Ensures the thread has finished
+        }
+
+        // Compute the total sum
+        int totalSum = 0;
+        for (Sommeur sommeur : sommeurs) {
+            totalSum += sommeur.getSomme();
+        }
+
+        // Shutdown the executor
+        executor.shutdown();
+
+        // Print the result
+        System.out.println("Total sum of array: " + totalSum);
+    }
+}
+
+```
 
 
