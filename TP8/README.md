@@ -70,21 +70,24 @@ public class Main {
 
 }
 
-//The output show different instances of printed and mixed order talkative ,they are printed simultaneity, so we can conclude that when we execute the run in runnable interface to
+//The output show different instances of printed and mixed order talkative ,they are printed simultaneity, so we can conclude that when we execute the run in Runnable interface to
 
 ```
 
 
 **After Running !**
 
-It's a long output, don't worry i will explain for not overwealming or misunderstood.
+It's a long output, don't worry, I will explain so as not overwhelming or misunderstand.
 
 ```bash
-In the output we will see each number from 1 to 10 and is repeated 100 time, but in ,arbetrery order,
-This is the purpose of the exercise i just describe what i made !
+In the output we will see each number from 1 to 10 and is repeated 100 times, but in ,arbitrary order,
+This is the purpose of the exercise I describe what I made!
 ```
 
-This is the picture of the Execution !.
+*This is the picture of the Execution!*
 
+![image](https://github.com/user-attachments/assets/6cdb12d5-82a6-42e4-ac38-bcdbb33ecf7b)
 
+![image](https://github.com/user-attachments/assets/64beed09-ab08-4c35-833b-55d153d8e293)
 
+it's the output start from `int 0 with the 100 times repeatedly` and you can see the disorder of them .
