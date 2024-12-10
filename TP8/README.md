@@ -203,4 +203,23 @@ After running the program:
 
 You will see the following output:
 
+![image](https://github.com/user-attachments/assets/e11fa5cd-f1ec-4d0a-b73e-4069b707d806)
 
+This is the result and also the explanation of the output of it : 
+
+An array of 100 numbers (all set to 21)
+The goal is to calculate the sum of all these numbers
+Instead of adding them one by one with a single thread, the code splits the work between 4 threads:
+
+Thread 1 sums numbers from position 0 to 24
+Thread 2 sums numbers from position 25 to 49
+Thread 3 sums numbers from position 50 to 74
+Thread 4 sums numbers from position 75 to 99
+
+
+
+The final result would be 2100 because:
+
+Each number in the array is 21
+We have 100 numbers
+So 21 × 100 = 2100
