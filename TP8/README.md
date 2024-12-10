@@ -1,6 +1,7 @@
 # TP8 : THREADS
 ---
 
+# START ⏯️ :
 Welcom
 
 ## Exercise 1 :fire:.
@@ -223,3 +224,16 @@ The final result would be 2100 because:
 Each number in the array is 21
 We have 100 numbers
 So 21 × 100 = 2100
+
+***
+
+# Summary.
+---
+
+This practical activity explores multithreading concepts in Java through two exercises, demonstrating how threads can execute tasks concurrently, improving efficiency and enabling parallel processing.
+
+***
+
+# END 🔚
+
+
