@@ -80,3 +80,12 @@ and use it for multiple types in JAVA, also we learn implementations about the I
 - [Generics]
 - [I/O]
 - [File System Interaction]
+
+
+### 8. Practical Activity 8
+**Description**
+This activity focuses on the implementations of threads and how can execute tasks at the same time, multi-processing.
+
+**Topics covered :**
+- [Runnable]
+- [Threads]
