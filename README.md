@@ -71,3 +71,12 @@ This is a practical work to practice ower knowledge of javaFX and see how the ap
 - [DAO]
 - [Object Implementation]
 
+### 7. Practical Activity 7 
+**Description**
+In this activity we see an interesting chapter , it' s genericity and I/O, where we learn how to use one generatic,
+and use it for multiple types in JAVA, also we learn implementations about the Input and Output files.
+
+**Topics covered:**
+- [Generics]
+- [I/O]
+- [File System Interaction]
