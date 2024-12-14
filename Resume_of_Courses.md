@@ -573,3 +573,190 @@ try (Connection conn = getConnection();
 6. Clear separation of responsibilities
 
 This structure provides a robust foundation for building enterprise-level Java applications with database integration, ensuring both functionality and maintainability.
+
+
+***
+
+# Course 5 : Generitic.
+---
+
+# Java Generics Guide
+
+## 1. Introduction to Generics
+
+Generics in Java allows creating classes, methods, and interfaces that can work with different data types.
+
+Key Points:
+* Introduced in Java 1.5
+* Enables type-independent code structure
+* Promotes code reuse
+* Provides type safety at compile time
+
+## 2. Generic Classes
+
+### Basic Generic Class Definition
+```java
+public class Container<T> {
+    private T value;
+    
+    public Container(T value) {
+        this.value = value;
+    }
+    
+    public T getValue() {
+        return value;
+    }
+}
+```
+
+### Usage Example
+```java
+// Integer container
+Container<Integer> intContainer = new Container<>(42);
+// String container
+Container<String> stringContainer = new Container<>("Hello");
+```
+
+## 3. Extending Generic Classes
+
+### Generic Subclass
+```java
+// Parent class
+public class Pair<T> {
+    private T first;
+    private T second;
+    // constructors and methods
+}
+
+// Child class maintaining generic type
+public class Triple<T> extends Pair<T> {
+    private T third;
+    // constructors and methods
+}
+```
+
+### Non-Generic Subclass
+```java
+// Specific type implementation
+public class StringPair extends Pair<String> {
+    // Implements Pair specifically for Strings
+    public StringPair(String first, String second) {
+        super(first, second);
+    }
+}
+```
+
+## 4. Generic Type Constraints
+
+You can restrict generic types using extends keyword:
+
+```java
+// T must be a subtype of Employee and implement both interfaces
+public class EmployeeContainer<T extends Employee & Serializable & Cloneable> {
+    private T employee;
+    
+    public void setEmployee(T employee) {
+        this.employee = employee;
+    }
+}
+```
+
+## 5. Generic Methods
+
+Methods can be generic regardless of whether they're in a generic class:
+
+```java
+public class Utilities {
+    // Generic method
+    public <T> void printArray(T[] array) {
+        for(T element : array) {
+            System.out.println(element);
+        }
+    }
+}
+
+// Usage
+Utilities utils = new Utilities();
+String[] strings = {"Hello", "World"};
+utils.printArray(strings);
+```
+
+## 6. Generic Interfaces
+
+### Interface Definition
+```java
+public interface Repository<T> {
+    T findById(long id);
+    void save(T item);
+    void delete(T item);
+    List<T> findAll();
+}
+```
+
+### Implementation Example
+```java
+public class UserRepository implements Repository<User> {
+    @Override
+    public User findById(long id) {
+        // Implementation
+        return null;
+    }
+    
+    @Override
+    public void save(User item) {
+        // Implementation
+    }
+    
+    @Override
+    public void delete(User item) {
+        // Implementation
+    }
+    
+    @Override
+    public List<User> findAll() {
+        // Implementation
+        return new ArrayList<>();
+    }
+}
+```
+
+## 7. Best Practices
+
+1. Type Naming Conventions:
+   * T for general type
+   * E for element
+   * K for key
+   * V for value
+   * N for number
+
+2. Use wildcards appropriately:
+```java
+// Accept any list of numbers
+public void processNumbers(List<? extends Number> numbers) {
+    // Process numbers
+}
+```
+
+3. Provide type bounds when necessary:
+```java
+public <T extends Comparable<T>> T findMax(List<T> list) {
+    // Find maximum value
+    return null;
+}
+```
+
+## 8. Benefits of Generics
+
+1. Type Safety
+   * Catches errors at compile time rather than runtime
+
+2. Code Reusability
+   * Write once, use with many types
+
+3. No Type Casting
+   * Eliminates explicit casting in code
+
+4. Generic Algorithms
+   * Implement algorithms independent of type
+
+This structured approach to generics provides a robust foundation for creating flexible and type-safe Java applications.
