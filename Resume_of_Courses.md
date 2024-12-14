@@ -139,3 +139,118 @@ Here is the updated summary of the document with **examples** included:
 - **Checked exceptions** are for predictable issues (e.g., file handling).
 - **Unchecked exceptions** represent programming errors (e.g., null access).
 - **Custom exceptions** are useful for domain-specific scenarios.
+
+***
+
+# Course 2 : Collections and Streams.
+---
+Here is a concise summary of the **Java Collections and Streams** document, with explanations and examples:
+
+---
+
+### **Collections in Java**
+- **Definition:** Flexible and dynamic data structures to store and manipulate groups of objects.
+- **Key Interfaces:**
+  - `List`: Ordered collection. Example: `ArrayList`, `LinkedList`.
+  - `Set`: Collection without duplicates. Example: `HashSet`.
+  - `Map`: Key-value pairs. Example: `HashMap`.
+
+#### **Examples:**
+1. **ArrayList:**
+   ```java
+   List<String> list = new ArrayList<>();
+   list.add("Ahmed");
+   list.add("Said");
+   System.out.println(list.get(0)); // Ahmed
+   list.forEach(System.out::println); // Ahmed, Said
+   list.clear(); // Clears the list
+   ```
+
+2. **Sorting with Collections:**
+   ```java
+   ArrayList<Integer> numbers = new ArrayList<>(Arrays.asList(4, 5, 2, 1));
+   Collections.sort(numbers); // [1, 2, 4, 5]
+   Collections.sort(numbers, Collections.reverseOrder()); // [5, 4, 2, 1]
+   ```
+
+3. **HashSet:**
+   ```java
+   HashSet<String> set = new HashSet<>();
+   set.add("Java");
+   set.add("Python");
+   System.out.println(set.contains("Java")); // true
+   set.remove("Python");
+   ```
+
+4. **HashMap:**
+   ```java
+   Map<String, Double> map = new HashMap<>();
+   map.put("k1", 10.7);
+   map.put("k2", 0.6);
+   map.forEach((key, value) -> System.out.println(key + ": " + value)); // k1: 10.7, k2: 0.6
+   map.remove("k1");
+   ```
+
+---
+
+### **Streams in Java**
+- **Definition:** A sequence of elements for processing data operations (introduced in Java 8).
+- **Common Operations:**
+  - `filter`: Selects elements matching a condition.
+  - `map`: Transforms each element.
+  - `flatMap`: Produces multiple elements per input.
+  - `reduce`: Combines elements into a single result.
+  - `count`: Counts elements in the stream.
+  - `forEach`: Performs an action on each element.
+  - `collect`: Converts stream elements into other forms like a `List`.
+
+#### **Examples:**
+1. **Filter:**
+   ```java
+   List<String> strings = Arrays.asList("Java", "Stream", "Example");
+   List<String> filtered = strings.stream()
+                                  .filter(s -> s.startsWith("S"))
+                                  .collect(Collectors.toList());
+   System.out.println(filtered); // [Stream]
+   ```
+
+2. **Map:**
+   ```java
+   List<String> upperCaseStrings = strings.stream()
+                                          .map(String::toUpperCase)
+                                          .collect(Collectors.toList());
+   System.out.println(upperCaseStrings); // [JAVA, STREAM, EXAMPLE]
+   ```
+
+3. **FlatMap:**
+   ```java
+   String concatenated = strings.stream()
+                                .flatMap(s -> Arrays.stream(s.split("")))
+                                .reduce("", String::concat);
+   System.out.println(concatenated); // JavaStreamExample
+   ```
+
+4. **Reduce:**
+   ```java
+   String concatenatedString = strings.stream()
+                                      .reduce("", String::concat);
+   System.out.println(concatenatedString); // JavaStreamExample
+   ```
+
+5. **Count:**
+   ```java
+   long count = strings.stream().count();
+   System.out.println(count); // 3
+   ```
+
+6. **ForEach:**
+   ```java
+   strings.stream().forEach(s -> System.out.println(s.toLowerCase()));
+   // Output: java, stream, example
+   ```
+
+---
+
+### **Key Takeaways**
+- **Collections**: Provide flexibility in managing data.
+- **Streams**: Enable efficient and declarative data processing with functional-style operations.
