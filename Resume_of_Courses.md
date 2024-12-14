@@ -408,3 +408,168 @@ public class JavaFXApp extends Application {
   - Supports both programmatic and declarative (FXML) approaches.
 - **Layouts:** Offer flexibility in arranging UI elements.
 - **FXML:** Simplifies the development and separation of UI and logic.
+
+
+
+***
+
+# Course 4 : JDBC 
+---
+# JDBC and JavaFX Database Integration Guide
+
+## 1. JDBC Fundamentals
+
+JDBC (Java Database Connectivity) serves as a bridge between Java applications and databases:
+
+* Acts as a Java library enabling database communication over TCP/IP
+* Each DBMS requires specific JDBC drivers
+* Special JdbcOdbcDriver allows universal data source access via ODBC
+* Functions as an SQL query execution interface
+
+**Basic Driver Loading:**
+```java
+// Loading MySQL JDBC driver
+Class.forName("com.mysql.jdbc.Driver");
+```
+
+## 2. JDBC Application Development Process
+
+### Essential Steps:
+1. Driver Loading
+2. Data Source Identification
+3. Connection Establishment
+4. Statement Creation
+5. Query Execution
+6. Result Processing
+7. Resource Cleanup
+
+**Connection Example:**
+```java
+Connection con = DriverManager.getConnection(
+    "jdbc:mysql://localhost:3306/DB",
+    "user", 
+    "password"
+);
+Statement stmt = con.createStatement();
+ResultSet rs = stmt.executeQuery("SELECT * FROM table");
+```
+
+## 3. Statement Types and Usage
+
+### Standard Statement
+```java
+Statement stmt = connection.createStatement();
+stmt.executeQuery("SELECT * FROM products");
+stmt.executeUpdate("INSERT INTO products VALUES(1, 'Product')");
+```
+
+### PreparedStatement
+```java
+PreparedStatement pstmt = connection.prepareStatement(
+    "INSERT INTO products VALUES(?, ?)"
+);
+pstmt.setInt(1, 100);
+pstmt.setString(2, "Product Name");
+pstmt.executeUpdate();
+```
+
+## 4. Three-Tier Architecture
+
+### Layer Structure:
+* **DAO Layer**: Database operations
+* **Business Layer**: Processing logic
+* **Presentation Layer**: MVC implementation
+
+**Singleton Connection Pattern:**
+```java
+public class SingletonConnectionDB {
+    private static Connection connection;
+    
+    private SingletonConnectionDB() {}
+    
+    public static Connection getConnection() {
+        if(connection == null) {
+            connection = DriverManager.getConnection(URL, USER, PASSWORD);
+        }
+        return connection;
+    }
+}
+```
+
+## 5. Object-Relational Mapping
+
+### Key Concepts:
+* Database records map to Java objects
+* Persistent classes represent database tables
+* Bridges object-oriented and relational models
+
+**Persistent Class Example:**
+```java
+public class Product {
+    private int id;
+    private String name;
+    private double price;
+    
+    // Getters and setters
+    public int getId() { return id; }
+    public void setId(int id) { this.id = id; }
+    // Additional getters/setters
+}
+```
+
+## 6. JavaFX Integration
+
+### Implementation Features:
+* FXML-based UI design
+* Controller-managed business logic
+* MVC pattern implementation
+
+**Controller Implementation:**
+```java
+public class ProduitController implements Initializable {
+    @FXML
+    private TableView<Product> tableView;
+    private IMetier metier;
+    
+    @Override
+    public void initialize(URL url, ResourceBundle rb) {
+        metier = new MetierImpl();
+        loadData();
+    }
+    
+    private void loadData() {
+        tableView.getItems().setAll(metier.getAllProducts());
+    }
+}
+```
+
+## 7. Best Practices
+
+### Application Design Principles:
+* Maintain separation of concerns
+* Implement proper error handling
+* Follow secure coding practices
+* Use prepared statements for queries
+* Close resources properly
+
+**Resource Management Example:**
+```java
+try (Connection conn = getConnection();
+     PreparedStatement pstmt = conn.prepareStatement(SQL_QUERY)) {
+    // Execute operations
+    pstmt.executeUpdate();
+} catch (SQLException e) {
+    // Handle exceptions
+} // Resources automatically closed
+```
+
+## 8. Benefits of This Architecture
+
+1. Enhanced maintainability
+2. Improved scalability
+3. Better security
+4. Clean code organization
+5. Efficient resource management
+6. Clear separation of responsibilities
+
+This structure provides a robust foundation for building enterprise-level Java applications with database integration, ensuring both functionality and maintainability.
