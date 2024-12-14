@@ -254,3 +254,157 @@ Here is a concise summary of the **Java Collections and Streams** document, with
 ### **Key Takeaways**
 - **Collections**: Provide flexibility in managing data.
 - **Streams**: Enable efficient and declarative data processing with functional-style operations.
+
+
+***
+
+# Course 3 : JavaFX
+---
+Here is a summarized breakdown of the **JavaFX** document with examples for each explanation:
+
+---
+
+### **What is JavaFX?**
+- **Definition:** JavaFX is a library for building modern graphical user interfaces (GUIs) for desktop, mobile, and web applications.
+- **Key Points:**
+  - Official GUI library for Java since Java 8 (March 2014), replacing Swing.
+  - Allows for high-quality, dynamic, and interactive UI designs.
+
+---
+
+### **Structure of a JavaFX Application**
+- **Main Components:**
+  - **Stage:** Represents the main application window.
+  - **Scene:** Holds all visual elements of the application.
+  - **Graphic Nodes:** Include:
+    - **User controls:** `Label`, `TextField`, `Button`, etc.
+    - **Shapes:** `Circle`, `Rectangle`, `Line`.
+    - **Media:** `ImageView`, `MediaView`.
+    - **Layouts:** Used for organizing elements (`BorderPane`, `VBox`, etc.).
+
+#### **Example: Basic Application**
+```java
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
+public class JavaFXApp extends Application {
+    @Override
+    public void start(Stage primaryStage) {
+        Button button = new Button("Click Me");
+        StackPane layout = new StackPane(button);
+        Scene scene = new Scene(layout, 300, 200);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Hello JavaFX");
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+```
+
+---
+
+### **Layouts in JavaFX**
+- **Purpose:** Manage and arrange UI components in an application window.
+- **Key Layout Types:**
+  1. **BorderPane:** Divides the window into five areas (Top, Bottom, Left, Right, Center).
+     ```java
+     BorderPane layout = new BorderPane();
+     layout.setTop(new Button("Top"));
+     layout.setBottom(new Button("Bottom"));
+     ```
+  2. **HBox:** Arranges elements horizontally.
+     ```java
+     HBox layout = new HBox(10, new Button("Button1"), new Button("Button2"));
+     ```
+  3. **VBox:** Arranges elements vertically.
+     ```java
+     VBox layout = new VBox(10, new Button("Button1"), new Button("Button2"));
+     ```
+  4. **GridPane:** Creates a grid layout.
+     ```java
+     GridPane grid = new GridPane();
+     grid.add(new Button("Button1"), 0, 0);
+     grid.add(new Button("Button2"), 1, 0);
+     ```
+  5. **AnchorPane:** Fixes elements to the edges of the window.
+     ```java
+     AnchorPane layout = new AnchorPane();
+     AnchorPane.setTopAnchor(button, 10.0);
+     ```
+
+---
+
+### **FXML-Based Method**
+- **Definition:** JavaFX allows UI structure to be defined using an XML-based format (FXML).
+- **Advantages:**
+  - Separates UI design (FXML) from application logic (Controller).
+  - Simplifies large UI designs.
+- **Process:**
+  1. Define UI in an FXML file.
+  2. Create a controller class to handle events and logic.
+  3. Load the FXML file in the Java application.
+
+#### **Example: FXML File**
+```xml
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="myapp.Controller">
+    <top>
+        <HBox spacing="10">
+            <Label text="Name: "/>
+            <TextField fx:id="nameField"/>
+            <Button text="Submit" onAction="#handleSubmit"/>
+        </HBox>
+    </top>
+</BorderPane>
+```
+
+#### **Example: Controller**
+```java
+import javafx.fxml.FXML;
+import javafx.scene.control.TextField;
+
+public class Controller {
+    @FXML
+    private TextField nameField;
+
+    public void handleSubmit() {
+        System.out.println("Name: " + nameField.getText());
+    }
+}
+```
+
+#### **Example: Main Application**
+```java
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+public class JavaFXApp extends Application {
+    @Override
+    public void start(Stage primaryStage) throws Exception {
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("layout.fxml"));
+        Scene scene = new Scene(loader.load(), 400, 300);
+        primaryStage.setScene(scene);
+        primaryStage.show();
+    }
+
+    public static void main(String[] args) {
+        launch(args);
+    }
+}
+```
+
+---
+
+### **Key Takeaways**
+- **JavaFX Features:**
+  - Rich and modern GUI development.
+  - Supports both programmatic and declarative (FXML) approaches.
+- **Layouts:** Offer flexibility in arranging UI elements.
+- **FXML:** Simplifies the development and separation of UI and logic.
