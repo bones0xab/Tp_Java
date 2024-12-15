@@ -4,15 +4,15 @@
 
  [Course 1 : Exceptions handling](#course1)
  
- [Course 2 : Collections and Streams](#Course2)
+ [Course 2 : Collections and Streams](#course2)
 
- [Course 3 : javaFX](#Course3)
+ [Course 3 : javaFX](#course3)
 
- [Course 4 : JDBC](#Course4)
+ [Course 4 : JDBC](#course4)
 
- [Course 5 : Generitic](#Course5)
+ [Course 5 : Generitic](#course5)
 
- [Course 6 : Files IO](#Course6)
+ [Course 6 : Files IO](#course6)
 
   
 
@@ -161,7 +161,7 @@ Here is the updated summary of the document with **examples** included:
 
 ***
 
-# <a name="Course2"></a> Course 2 : Collections and Streams.
+# <a name="course2"></a> Course 2 : Collections and Streams.
 ---
 Here is a concise summary of the **Java Collections and Streams** document, with explanations and examples:
 
@@ -277,7 +277,7 @@ Here is a concise summary of the **Java Collections and Streams** document, with
 
 ***
 
-# <a id="Course3"></a> Course 3 : JavaFX
+# <a id="course3"></a> Course 3 : JavaFX
 ---
 Here is a summarized breakdown of the **JavaFX** document with examples for each explanation:
 
@@ -432,7 +432,7 @@ public class JavaFXApp extends Application {
 
 ***
 
-#<a id="Course4"></a> Course 4 : JDBC 
+#<a id="course4"></a> Course 4 : JDBC 
 ---
 # JDBC and JavaFX Database Integration Guide
 
@@ -596,7 +596,7 @@ This structure provides a robust foundation for building enterprise-level Java a
 
 ***
 
-#<a id="Course5"></a> Course 5 : Generitic.
+#<a id="course5"></a> Course 5 : Generitic.
 ---
 
 Let me provide a clearer, more conceptual summary of Java Generics with simpler explanations followed by examples.
@@ -719,7 +719,7 @@ Remember: Generics only exist at compile time - they're erased at runtime (type 
 
 ***
 
-#<a id="Course6"></a> Course 6 : Files Manipulations
+#<a id="course6"></a> Course 6 : Files Manipulations
 ---
 
 # Java Input/Output (I/O) for Files - A Comprehensive Guide
