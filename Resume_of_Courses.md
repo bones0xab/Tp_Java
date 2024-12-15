@@ -1,4 +1,10 @@
-# Course 1 : Exceptions handling. 
+<h1 align="center">CheatSheet</h1>
+ ***
+
+ [Exceptions handling](#Course1)
+Course 2 : Collections and Streams
+
+# <a id="Course1"></a>Course 1 : Exceptions handling. 
 ---
 
 Here is the updated summary of the document with **examples** included:
