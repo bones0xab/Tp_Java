@@ -2,7 +2,7 @@
 
  ***
 
- [Course 1 : Exceptions handling](#Course1)
+ [Course 1 : Exceptions handling](#course1)
  
  [Course 2 : Collections and Streams](#Course2)
 
@@ -17,7 +17,7 @@
   
 
 
-# <a name="Course1"></a>Course 1 : Exceptions handling. 
+# <a name="course1"></a>Course 1 : Exceptions handling. 
 ---
 
 Here is the updated summary of the document with **examples** included:
