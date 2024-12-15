@@ -1,8 +1,9 @@
 <h1 align="center">CheatSheet</h1>
  ***
 
- [Exceptions handling](#Course1)
-Course 2 : Collections and Streams
+ [Course 1 : Exceptions handling](#Course1)
+ 
+ [Course 2 : Collections and Streams](#Course2)
 
 # <a id="Course1"></a>Course 1 : Exceptions handling. 
 ---
