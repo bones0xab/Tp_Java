@@ -160,7 +160,7 @@ Here is the updated summary of the document with **examples** included:
 
 ***
 
-# <a id="Course2"></a> Course 2 : Collections and Streams.
+# <a name="Course2"></a> Course 2 : Collections and Streams.
 ---
 Here is a concise summary of the **Java Collections and Streams** document, with explanations and examples:
 
