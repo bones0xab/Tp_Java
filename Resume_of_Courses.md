@@ -16,7 +16,7 @@
   
 
 
-# <a id="Course1"></a>Course 1 : Exceptions handling. 
+# <a name="Course1"></a>Course 1 : Exceptions handling. 
 ---
 
 Here is the updated summary of the document with **examples** included:
