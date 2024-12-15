@@ -432,8 +432,10 @@ public class JavaFXApp extends Application {
 
 ***
 
-#<a id="course4"></a> Course 4 : JDBC 
+
+# <a id="course4"></a> Course 4 : JDBC 
 ---
+
 # JDBC and JavaFX Database Integration Guide
 
 ## 1. JDBC Fundamentals
@@ -596,7 +598,7 @@ This structure provides a robust foundation for building enterprise-level Java a
 
 ***
 
-#<a id="course5"></a> Course 5 : Generitic.
+# <a id="course5"></a> Course 5 : Generitic.
 ---
 
 Let me provide a clearer, more conceptual summary of Java Generics with simpler explanations followed by examples.
@@ -719,7 +721,7 @@ Remember: Generics only exist at compile time - they're erased at runtime (type 
 
 ***
 
-#<a id="course6"></a> Course 6 : Files Manipulations
+# <a id="course6"></a> Course 6 : Files Manipulations
 ---
 
 # Java Input/Output (I/O) for Files - A Comprehensive Guide
