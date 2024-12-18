@@ -904,3 +904,102 @@ try (FileWriter fw = new FileWriter("log.txt", true)) { // true for append mode
 This overview gives you the foundation to handle most file operations in Java. Start with simple text file operations and gradually move to more complex scenarios as needed.
 
 ***
+
+# Course 7 : Sockets.
+---
+
+### **Socket and ServerSocket Commands**
+
+#### **Client Side**
+- **Establish Connection**
+  ```java
+  Socket socket = new Socket("hostname", port);
+  ```
+  - Connects to a server using the given hostname and port.
+
+- **Send Data**
+  ```java
+  OutputStream out = socket.getOutputStream();
+  PrintWriter writer = new PrintWriter(out, true);
+  writer.println("Message");
+  ```
+  - Sends data to the server using the output stream.
+
+- **Receive Data**
+  ```java
+  InputStream in = socket.getInputStream();
+  BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+  String message = reader.readLine();
+  ```
+  - Reads data from the server using the input stream.
+
+---
+
+#### **Server Side**
+- **Create ServerSocket**
+  ```java
+  ServerSocket server = new ServerSocket(port);
+  ```
+  - Listens for incoming connections on the specified port.
+
+- **Accept Connections**
+  ```java
+  Socket socket = server.accept();
+  ```
+  - Waits for a client to connect and establishes the connection.
+
+- **Send Data to Client**
+  ```java
+  PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
+  writer.println("Response");
+  ```
+  - Sends a response to the client.
+
+- **Receive Data from Client**
+  ```java
+  BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+  String message = reader.readLine();
+  ```
+  - Reads the message sent by the client.
+
+---
+
+### **Object Serialization and Deserialization**
+
+#### **Server Side (Serialization)**
+- **Serialize Object**
+  ```java
+  ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
+  out.writeObject(object);
+  ```
+  - Writes an object to the output stream.
+
+#### **Client Side (Deserialization)**
+- **Deserialize Object**
+  ```java
+  ObjectInputStream in = new ObjectInputStream(socket.getInputStream());
+  Object obj = in.readObject();
+  ```
+  - Reads an object from the input stream.
+
+---
+
+### **Key Methods**
+- **ServerSocket**
+  - `accept()`: Waits for and accepts a client connection.
+- **Socket**
+  - `getOutputStream()`: Retrieves the output stream to send data.
+  - `getInputStream()`: Retrieves the input stream to receive data.
+
+---
+
+### **Example Usage**
+1. **Client-Server Communication**
+   - Server listens on a port using `ServerSocket`.
+   - Client connects to the server using `Socket`.
+   - Both use input/output streams to exchange messages.
+
+2. **Object Communication**
+   - Use `ObjectOutputStream` and `ObjectInputStream` for transmitting Java objects between client and server.
+
+Let me know if you'd like further clarifications or additions!
