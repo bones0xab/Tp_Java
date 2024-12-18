@@ -1004,3 +1004,93 @@ This overview gives you the foundation to handle most file operations in Java. S
    - Use `ObjectOutputStream` and `ObjectInputStream` for transmitting Java objects between client and server.
 
 Let me know if you'd like further clarifications or additions!
+
+
+**Better understanding**
+```bash
+Here’s a list of commands with brief explanations for each, as per the PDF content:
+
+---
+
+### **Socket and ServerSocket Commands**
+
+#### **Client Side**
+- **`Socket`**: Used to create a client connection to a server.
+  ```java
+  Socket socket = new Socket("hostname", port);
+  ```
+
+- **`OutputStream`**: Provides a way to send data from the client to the server.
+  ```java
+  OutputStream out = socket.getOutputStream();
+  ```
+
+- **`PrintWriter`**: Wraps the `OutputStream` for easier writing of text data.
+  ```java
+  PrintWriter writer = new PrintWriter(out, true);
+  writer.println("Message");
+  ```
+
+- **`InputStream`**: Retrieves data sent by the server.
+  ```java
+  InputStream in = socket.getInputStream();
+  ```
+
+- **`BufferedReader`**: Efficiently reads text from the input stream.
+  ```java
+  BufferedReader reader = new BufferedReader(new InputStreamReader(in));
+  String message = reader.readLine();
+  ```
+
+---
+
+#### **Server Side**
+- **`ServerSocket`**: Listens for incoming client connections on a specific port.
+  ```java
+  ServerSocket server = new ServerSocket(port);
+  ```
+
+- **`accept`**: Blocks until a client connects, then returns a `Socket` for communication.
+  ```java
+  Socket socket = server.accept();
+  ```
+
+- **`getOutputStream`**: Allows the server to send data to the client.
+  ```java
+  PrintWriter writer = new PrintWriter(socket.getOutputStream(), true);
+  writer.println("Response");
+  ```
+
+- **`getInputStream`**: Reads data sent by the client.
+  ```java
+  BufferedReader reader = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+  String message = reader.readLine();
+  ```
+
+---
+
+### **Object Serialization and Deserialization**
+
+- **`ObjectOutputStream`**: Used to serialize Java objects into a stream for sending.
+  ```java
+  ObjectOutputStream out = new ObjectOutputStream(socket.getOutputStream());
+  out.writeObject(object);
+  ```
+
+- **`ObjectInputStream`**: Deserializes objects received as a stream.
+  ```java
+  ObjectInputStream in = new ObjectInputStream(socket.getInputStream());
+  Object obj = in.readObject();
+  ```
+
+---
+
+### **Key Classes and Methods**
+
+- **`BufferedReader`**: Reads text efficiently from an input stream.
+- **`PrintWriter`**: Writes formatted text to an output stream.
+- **`InputStream` and `OutputStream`**: Base classes for reading and writing binary data.
+- **`ObjectOutputStream` and `ObjectInputStream`**: Serialize and deserialize Java objects.
+
+Each command is designed to simplify specific tasks in socket programming, from connecting sockets to exchanging data and objects. Let me know if you'd like additional examples or details!
+```
