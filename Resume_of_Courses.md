@@ -14,6 +14,7 @@
 
  [Course 6 : Files IO](#course6)
 
+ [Course 7 : Sockets](#course7)
   
 
 
@@ -905,7 +906,7 @@ This overview gives you the foundation to handle most file operations in Java. S
 
 ***
 
-# Course 7 : Sockets.
+# <a id="course7"></a>Course 7 : Sockets.
 ---
 
 ### **Socket and ServerSocket Commands**
