@@ -87,5 +87,7 @@ public class Client {
 
 ```
 
-
+**Explication**
+The code above is the client class where I write a `try` inside the code to make the basic configuration for sending and receiving the data with the Server,
+also as you can see inside the `TRY` the `switch` for testing different cases, The case of exact Numbers, and the cases of invalid numbers, (If the user is up to the M.Number we tell him to go lower if not you can see the other case).
 
