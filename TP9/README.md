@@ -181,5 +181,9 @@ Then, I will test the cases on the User side (exactly the number, higher, Slower
 
 As you can see in the above illustration we can see different tests and the final results.
 
+***
 
+# <a id="exercice2"></a>Exercise 2 :
+`Overview:`In this exercise we are in the main focus of Sockets,
+Just we practice it in a different approach, we want to read files inside the Server 
 
