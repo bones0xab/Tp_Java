@@ -88,6 +88,98 @@ public class Client {
 ```
 
 **Explication**
+
 The code above is the client class where I write a `try` inside the code to make the basic configuration for sending and receiving the data with the Server,
-also as you can see inside the `TRY` the `switch` for testing different cases, The case of exact Numbers, and the cases of invalid numbers, (If the user is up to the M.Number we tell him to go lower if not you can see the other case).
+also as you can see inside the `TRY` the `switch` for testing different cases, The case of exact Numbers, and the cases of invalid numbers, 
+(If the user is up to the M.Number we tell him to go lower if not you can see the other case).
+
+
+---
+
+## Server Class
+---
+
+```java
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class Server {
+    public static void main(String[] args) {
+        final int PORT = 7585;
+        final int MAGIC_NUMBER = (int) (Math.random() * 101); // Random number [0-100]
+        System.out.println("Server is running on port " + PORT);
+        System.out.println("The magic number is: " + MAGIC_NUMBER); // For debugging or testing
+
+        try (ServerSocket serverSocket = new ServerSocket(PORT)) {
+            Socket socket = serverSocket.accept();
+            System.out.println("Client connected");
+
+            try (InputStream inputStream = socket.getInputStream();
+                 OutputStream outputStream = socket.getOutputStream()) {
+
+                boolean gameRunning = true;
+
+                while (gameRunning) {
+                    int guess = inputStream.read();
+                    if (guess == -1) {
+                        System.out.println("Client disconnected.");
+                        break;
+                    }
+
+                    System.out.println("Player guessed: " + guess);
+
+                    if (guess == MAGIC_NUMBER) {
+                        outputStream.write(0); // Signal correct guess
+                        System.out.println("Client guessed correctly! Game over.");
+                        gameRunning = false;
+                    } else if (guess < MAGIC_NUMBER) {
+                        outputStream.write(1); // Hint: Go higher
+                        System.out.println("Hint sent: Go Higher!");
+                    } else {
+                        outputStream.write(-1); // Hint: Go lower
+                        System.out.println("Hint sent: Go Lower!");
+                    }
+                }
+            }
+
+        } catch (IOException e) {
+            System.err.println("Server error: " + e.getMessage());
+        }
+    }
+}
+
+
+```
+
+**Explication**
+
+In this Class, I write the configurations of establishing the connection between the Server and the client, 
+as well I mentioned a while where I repeated until we find the Magic number,
+I use the `localhost` and the `port 7585`.
+
+---
+
+# Scenario.
+---
+I will choose the number magic as 40 and play the game as a User. 
+
+**Note: Testing is Everything !**
+
+This is the part of the server where I compile and I go this.(All the configuration work cause we see they are connected ).
+
+![image](https://github.com/user-attachments/assets/f98ad654-1f5a-4319-b345-2839e70b98fe)
+
+Then, I will test the cases on the User side (exactly the number, higher, Slower).
+
+
+![image](https://github.com/user-attachments/assets/5bf2e673-faf3-446e-9eee-1d7326224367)
+
+
+As you can see in the above illustration we can see different tests and the final results.
+
+
 
