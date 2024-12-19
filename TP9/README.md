@@ -12,7 +12,7 @@
 
 ---
 
-# Exercise 1: JAVA Game.
+# <a id="exercice1"></a>Exercise 1: JAVA Game.
 ---
 
 `Overview:` In this first exercise we point the attention to the sockets in JAVA, using a Game Guess to build a basic
