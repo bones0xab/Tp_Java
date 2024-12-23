@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox spacing="10" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.examan.CabinetController" style="-fx-padding: 15;">
+
+    <TabPane VBox.vgrow="ALWAYS">
+        <Tab text="Patients" closable="false">
+            <VBox spacing="10">
+                <!-- Search Section -->
+                <HBox spacing="10" alignment="CENTER_LEFT">
+                    <TextField fx:id="searchPatientField" promptText="Rechercher patient..." HBox.hgrow="ALWAYS"/>
+                    <Button text="Rechercher" onAction="#searchPatients"/>
+                </HBox>
+
+                <!-- Patient Form -->
+                <GridPane hgap="10" vgap="10">
+                    <TextField fx:id="patientId" promptText="ID" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <TextField fx:id="patientNom" promptText="Nom" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    <TextField fx:id="patientPrenom" promptText="Prénom" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                    <TextField fx:id="patientCin" promptText="CIN" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                    <TextField fx:id="patientTel" promptText="Téléphone" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                    <TextField fx:id="patientEmail" promptText="Email" GridPane.columnIndex="2" GridPane.rowIndex="1"/>
+                    <DatePicker fx:id="patientDateNaissance" promptText="Date de naissance" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+                </GridPane>
+
+                <!-- Patient Actions -->
+                <HBox spacing="10">
+                    <Button text="Ajouter" onAction="#addPatient"/>
+                    <Button text="Supprimer" onAction="#deletePatient"/>
+                    <Button text="Effacer" onAction="#clearPatientForm"/>
+                </HBox>
+
+                <!-- Patient Table -->
+                <TableView fx:id="patientTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="patientIdCol" text="ID"/>
+                        <TableColumn fx:id="patientNomCol" text="Nom"/>
+                        <TableColumn fx:id="patientPrenomCol" text="Prénom"/>
+                        <TableColumn fx:id="patientCinCol" text="CIN"/>
+                        <TableColumn fx:id="patientTelCol" text="Téléphone"/>
+                        <TableColumn fx:id="patientEmailCol" text="Email"/>
+                        <TableColumn fx:id="patientDateCol" text="Date de naissance"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </Tab>
+
+        <Tab text="Médecins" closable="false">
+            <VBox spacing="10">
+                <!-- Doctor Form -->
+                <GridPane hgap="10" vgap="10">
+                    <TextField fx:id="medecinId" promptText="ID" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <TextField fx:id="medecinNom" promptText="Nom" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    <TextField fx:id="medecinPrenom" promptText="Prénom" GridPane.columnIndex="2" GridPane.rowIndex="0"/>
+                    <TextField fx:id="medecinEmail" promptText="Email" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                    <TextField fx:id="medecinTel" promptText="Téléphone" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                </GridPane>
+
+                <!-- Doctor Actions -->
+                <HBox spacing="10">
+                    <Button text="Ajouter" onAction="#addMedecin"/>
+                    <Button text="Supprimer" onAction="#deleteMedecin"/>
+                    <Button text="Effacer" onAction="#clearMedecinForm"/>
+                </HBox>
+
+                <!-- Doctor Table -->
+                <TableView fx:id="medecinTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="medecinIdCol" text="ID"/>
+                        <TableColumn fx:id="medecinNomCol" text="Nom"/>
+                        <TableColumn fx:id="medecinPrenomCol" text="Prénom"/>
+                        <TableColumn fx:id="medecinEmailCol" text="Email"/>
+                        <TableColumn fx:id="medecinTelCol" text="Téléphone"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </Tab>
+
+        <Tab text="Consultations" closable="false">
+            <VBox spacing="10">
+                <!-- Consultation Form -->
+                <GridPane hgap="10" vgap="10">
+                    <TextField fx:id="consultationId" promptText="ID" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+                    <DatePicker fx:id="consultationDate" promptText="Date" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                    <ComboBox fx:id="patientCombo" promptText="Patient" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+                    <ComboBox fx:id="medecinCombo" promptText="Médecin" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+                </GridPane>
+
+                <!-- Consultation Actions -->
+                <HBox spacing="10">
+                    <Button text="Ajouter" onAction="#addConsultation"/>
+                    <Button text="Modifier" onAction="#updateConsultation"/>
+                    <Button text="Supprimer" onAction="#deleteConsultation"/>
+                    <Button text="Effacer" onAction="#clearConsultationForm"/>
+                </HBox>
+
+                <!-- Consultation Table -->
+                <TableView fx:id="consultationTable" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="consultationIdCol" text="ID"/>
+                        <TableColumn fx:id="consultationDateCol" text="Date"/>
+                        <TableColumn fx:id="consultationPatientCol" text="Patient"/>
+                        <TableColumn fx:id="consultationMedecinCol" text="Médecin"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </Tab>
+    </TabPane>
+</VBox>
