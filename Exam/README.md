@@ -1,11 +1,11 @@
-<h1>Exam</h1>
+<h1 align="center">Exam</h1>
 
 ***
 
-[1/ Exercise 1](#ex1)
+# [ Exercise 1](#ex1)
 
 
-[2/ Exerise 2](#ex2)
+# [ Exerise 2](#ex2)
 
 ***
 
@@ -31,6 +31,16 @@ on specific information.
 Operations given in the exercise.
 
 - All this classes are built with their getters and comments for a better understanding.
+
+
+# Class Diagram.
+---
+This is the class diagram where I made the relationship between the Classes,
+I was inspired by the real world to build it!
+
+![image](https://github.com/user-attachments/assets/46bf26db-6e46-49ec-8814-41fcffe85839)
+
+**Figure : Class Diagram of Exercise 1**
 
 
 ### Let's code !.
