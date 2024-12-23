@@ -254,3 +254,9 @@ I added the search functionality I added to see the patient by name, email, or C
 ![image](https://github.com/user-attachments/assets/45d84aa1-05b0-4845-974f-a6fb20da16b6)
 
 
+****
+Summary: 
+In this project we saw how to build simple cabinetMedical using native or basic JAVA code,
+and also using JavaFX.
+
+
